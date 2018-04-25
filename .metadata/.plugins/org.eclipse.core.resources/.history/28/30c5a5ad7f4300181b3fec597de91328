@@ -1,9 +1,0 @@
-package KH_conversions;
-
-import java.util.Scanner;
-
-public class CharToInt {
-	public static void main(String args[]){
-		Scanner sc = new Scanner(System.in)
-	}
-}

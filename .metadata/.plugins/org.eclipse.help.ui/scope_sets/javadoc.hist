@@ -1,6 +1,0 @@
-#Fri Feb 24 01:31:53 PST 2017
-__DEFAULT__=false
-org.eclipse.sdk.Eclipse.master=true
-org.eclipse.sdk.Google.master=true
-org.eclipse.help.ui.localSearch.master=true
-expression=javadoc
