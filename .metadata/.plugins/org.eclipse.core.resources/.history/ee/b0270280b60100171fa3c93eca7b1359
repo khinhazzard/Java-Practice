@@ -1,0 +1,12 @@
+package ClassesProject;
+
+public class First {
+	
+	public First(){
+		System.out.println("First class started!");
+	}
+	
+	public static void main(String args[]){
+		new First();
+	}
+}

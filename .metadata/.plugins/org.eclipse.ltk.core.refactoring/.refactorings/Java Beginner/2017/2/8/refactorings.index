@@ -1,0 +1,66 @@
+1487913343981	Rename type 'apple'
+1487914104378	Delete element
+1487914898857	Delete element
+1487915009528	Delete element
+1487915777781	Rename type 'J100HelloWorld'
+1487987123460	Rename type 'J000HelloWorld'
+1487987133022	Rename type 'J001Variables'
+1487987139569	Rename type 'J002GettingUserInput'
+1487987149716	Rename type 'J003MathOperators'
+1487987162341	Rename type 'J004IncrementOperators'
+1487987579403	Rename type 'J00HelloWorld'
+1487987590488	Rename type 'J01Variables'
+1487987597758	Rename type 'J02GettingUserInput'
+1487987602322	Rename type 'J03MathOperators'
+1487987607286	Rename type 'J04IncrementOperators'
+1487987613388	Rename type 'J05IfStatement'
+1487987617636	Rename type 'J05iffStatement'
+1487988440745	Rename type 'J00helloWorld'
+1487988506332	Delete element
+1487988565628	Delete element
+1487988718316	Rename compilation unit 'J05ifStatement.java'
+1487988735554	Rename compilation unit 'J06ifStatement.java'
+1487988750428	Rename compilation unit 'J04incrementOperators.java'
+1487988760316	Delete element
+1487989359010	Copy compilation units
+1487989367227	Delete elements
+1487992181638	Rename package 'p001BasicCalculator'
+1487993957404	Copy compilation units
+1488008613721	Delete element
+1488010194986	Copy compilation unit
+1488010205141	Rename type 'L13average'
+1488010234600	Delete element
+1488012046208	Copy compilation unit
+1488012088450	Rename type 'calc'
+1488012104228	Rename type 'sample01Calculator'
+1488012114790	Rename package 'p02methodsAndClasses'
+1488012118254	Delete element
+1488012127329	Copy compilation unit
+1488012140481	Rename type 'average'
+1488012163495	Delete element
+1488012294033	Rename type 'sample01Calculate'
+1488012318508	Rename type 'L01helloWorld'
+1488012326235	Rename type 'L02variables'
+1488012339855	Rename type 'L03gettingUserInput'
+1488012358390	Rename type 'L04mathOperators'
+1488012368468	Rename type 'L05incrementOperators'
+1488012385078	Rename type 'L06ifStatement'
+1488012397703	Rename type 'L07logicalOperators'
+1488012416219	Rename type 'L08switchStatement'
+1488012426391	Rename type 'L09whileLoop'
+1488012459923	Rename package 'p01methodsAndClasses'
+1488012473360	Rename package 'p03methodsWithParameters'
+1488012494048	Rename package 'p04methodsAndInstances'
+1488012506251	Rename package 'p05constructors'
+1488012519470	Rename type 'L10nestedIfStatement'
+1488012539786	Rename type 'L11elseIfStatement'
+1488012578396	Rename type 'L12conditionalOperators'
+1488012586427	Rename type 'L13forLoops'
+1488012644193	Rename type 'L02v_ariables'
+1488012704510	Rename type 'compound'
+1488013477794	Rename compilation unit 'L19_mathClassmethods.java'
+1488014059553	Rename type 'random'
+1488014071192	Rename type 'sample04_randomNumGenerator'
+1488014717932	Rename type 'arrays'
+1488015616193	Rename type 'enhancedLoop'
+1488016086002	Rename type 'ArraysInMethods'

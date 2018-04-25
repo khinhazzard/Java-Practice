@@ -1,0 +1,15 @@
+package ClassesProject;
+
+public class First {
+	
+	Animal animals[] = new Animal[3];
+	
+	public First(){
+		System.out.println("First class started!");
+		Animal 
+	}
+	
+	public static void main(String args[]){
+		new First();
+	}
+}

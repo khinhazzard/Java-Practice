@@ -1,0 +1,36 @@
+package job_exam;
+
+//6:27 PM 4/18/2018
+
+import java.util.Scanner;
+
+public class Appstone_1_VandC {
+	public static void main(String args[]){
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Input:");
+		
+		String s = sc.nextLine();
+		
+		countVandC(s);
+		
+	}
+	
+	static void countVandC(String s){
+		char v[] = {'A','E','I','O','U','a','e','i','o,'u'};
+		
+		
+		System.out.println(s);
+	}
+}
+
+/*
+ * Write a function that prints out the number of vowels and consonants in a
+ * sentence
+ */
+
+// input: This is a sentence
+//
+// output:
+// Number of vowels: 6
+// Number of consonants: 9

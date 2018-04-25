@@ -1,0 +1,2195 @@
+!SESSION 2018-04-18 21:11:38.244 -----------------------------------------------
+eclipse.buildId=M20100909-0800
+java.version=1.8.0_131
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+This is a continuation of log file D:\[Java]\Java Practice\.metadata\.bak_0.log
+Created Time: 2018-04-18 21:59:33.622
+
+!ENTRY org.eclipse.jdt.debug 4 125 2018-04-18 21:59:33.622
+!MESSAGE Internal error logged from JDI Debug: 
+!STACK 0
+org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 2938.
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:171)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:180)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:174)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:192)
+	at org.eclipse.jdi.internal.VirtualMachineImpl.classesBySignature(VirtualMachineImpl.java:599)
+	at org.eclipse.jdi.internal.VirtualMachineImpl.classesByName(VirtualMachineImpl.java:626)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.jdiClassesByName(JDIDebugTarget.java:1510)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.getTypesToBytes(JavaHotCodeReplaceManager.java:635)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.redefineTypesJDK(JavaHotCodeReplaceManager.java:569)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.doHotCodeReplace(JavaHotCodeReplaceManager.java:461)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.access$0(JavaHotCodeReplaceManager.java:421)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager$1.run(JavaHotCodeReplaceManager.java:310)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.run(DebugPlugin.java:1048)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.async(DebugPlugin.java:1031)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jdt.debug 4 125 2018-04-18 21:59:43.126
+!MESSAGE Internal error logged from JDI Debug: 
+!STACK 0
+org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 2945.
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:171)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:180)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:174)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:192)
+	at org.eclipse.jdi.internal.VirtualMachineImpl.classesBySignature(VirtualMachineImpl.java:599)
+	at org.eclipse.jdi.internal.VirtualMachineImpl.classesByName(VirtualMachineImpl.java:626)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.jdiClassesByName(JDIDebugTarget.java:1510)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.getTypesToBytes(JavaHotCodeReplaceManager.java:635)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.redefineTypesJDK(JavaHotCodeReplaceManager.java:569)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.doHotCodeReplace(JavaHotCodeReplaceManager.java:461)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.access$0(JavaHotCodeReplaceManager.java:421)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager$1.run(JavaHotCodeReplaceManager.java:310)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.run(DebugPlugin.java:1048)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.async(DebugPlugin.java:1031)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jdt.debug 4 5010 2018-04-18 21:59:46.262
+!MESSAGE At least one target failed to drop to frame after successful hot code replace.
+!SUBENTRY 1 org.eclipse.jdt.debug 4 5010 2018-04-18 21:59:46.262
+!MESSAGE org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 2937. occurred retrieving stack frames.
+!STACK 0
+org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 2937.
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:171)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:180)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:174)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:192)
+	at org.eclipse.jdi.internal.ThreadReferenceImpl.frames(ThreadReferenceImpl.java:241)
+	at org.eclipse.jdi.internal.ThreadReferenceImpl.frames(ThreadReferenceImpl.java:225)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.getUnderlyingFrames(JDIThread.java:608)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.computeStackFrames(JDIThread.java:520)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.computeStackFrames(JDIThread.java:584)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.getAffectedFrame(JavaHotCodeReplaceManager.java:815)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.getAffectedFrames(JavaHotCodeReplaceManager.java:785)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.attemptPopFrames(JavaHotCodeReplaceManager.java:735)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.doHotCodeReplace(JavaHotCodeReplaceManager.java:451)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.access$0(JavaHotCodeReplaceManager.java:421)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager$1.run(JavaHotCodeReplaceManager.java:310)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.run(DebugPlugin.java:1048)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.async(DebugPlugin.java:1031)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.jdt.debug 4 5010 2018-04-18 21:59:46.262
+!MESSAGE org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 2944. occurred retrieving stack frames.
+!STACK 0
+org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 2944.
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:171)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:180)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:174)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:192)
+	at org.eclipse.jdi.internal.ThreadReferenceImpl.frames(ThreadReferenceImpl.java:241)
+	at org.eclipse.jdi.internal.ThreadReferenceImpl.frames(ThreadReferenceImpl.java:225)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.getUnderlyingFrames(JDIThread.java:608)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.computeStackFrames(JDIThread.java:520)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.computeStackFrames(JDIThread.java:584)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.getAffectedFrame(JavaHotCodeReplaceManager.java:815)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.getAffectedFrames(JavaHotCodeReplaceManager.java:785)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.attemptPopFrames(JavaHotCodeReplaceManager.java:735)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.doHotCodeReplace(JavaHotCodeReplaceManager.java:451)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.access$0(JavaHotCodeReplaceManager.java:421)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager$1.run(JavaHotCodeReplaceManager.java:310)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.run(DebugPlugin.java:1048)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.async(DebugPlugin.java:1031)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jdt.debug 4 125 2018-04-18 21:59:54.918
+!MESSAGE Internal error logged from JDI Debug: 
+!STACK 0
+org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 3008.
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:171)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:180)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:174)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:192)
+	at org.eclipse.jdi.internal.VirtualMachineImpl.classesBySignature(VirtualMachineImpl.java:599)
+	at org.eclipse.jdi.internal.VirtualMachineImpl.classesByName(VirtualMachineImpl.java:626)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.jdiClassesByName(JDIDebugTarget.java:1510)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.getTypesToBytes(JavaHotCodeReplaceManager.java:635)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.redefineTypesJDK(JavaHotCodeReplaceManager.java:569)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.doHotCodeReplace(JavaHotCodeReplaceManager.java:461)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.access$0(JavaHotCodeReplaceManager.java:421)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager$1.run(JavaHotCodeReplaceManager.java:310)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.run(DebugPlugin.java:1048)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.async(DebugPlugin.java:1031)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jdt.debug 4 125 2018-04-18 22:00:04.171
+!MESSAGE Internal error logged from JDI Debug: 
+!STACK 0
+org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 3015.
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:171)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:180)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:174)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:192)
+	at org.eclipse.jdi.internal.VirtualMachineImpl.classesBySignature(VirtualMachineImpl.java:599)
+	at org.eclipse.jdi.internal.VirtualMachineImpl.classesByName(VirtualMachineImpl.java:626)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.jdiClassesByName(JDIDebugTarget.java:1510)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.getTypesToBytes(JavaHotCodeReplaceManager.java:635)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.redefineTypesJDK(JavaHotCodeReplaceManager.java:569)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.doHotCodeReplace(JavaHotCodeReplaceManager.java:461)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.access$0(JavaHotCodeReplaceManager.java:421)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager$1.run(JavaHotCodeReplaceManager.java:310)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.run(DebugPlugin.java:1048)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.async(DebugPlugin.java:1031)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jdt.debug 4 5010 2018-04-18 22:00:07.296
+!MESSAGE At least one target failed to drop to frame after successful hot code replace.
+!SUBENTRY 1 org.eclipse.jdt.debug 4 5010 2018-04-18 22:00:07.296
+!MESSAGE org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 3007. occurred retrieving stack frames.
+!STACK 0
+org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 3007.
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:171)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:180)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:174)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:192)
+	at org.eclipse.jdi.internal.ThreadReferenceImpl.frames(ThreadReferenceImpl.java:241)
+	at org.eclipse.jdi.internal.ThreadReferenceImpl.frames(ThreadReferenceImpl.java:225)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.getUnderlyingFrames(JDIThread.java:608)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.computeStackFrames(JDIThread.java:520)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.computeStackFrames(JDIThread.java:584)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.getAffectedFrame(JavaHotCodeReplaceManager.java:815)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.getAffectedFrames(JavaHotCodeReplaceManager.java:785)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.attemptPopFrames(JavaHotCodeReplaceManager.java:735)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.doHotCodeReplace(JavaHotCodeReplaceManager.java:451)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.access$0(JavaHotCodeReplaceManager.java:421)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager$1.run(JavaHotCodeReplaceManager.java:310)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.run(DebugPlugin.java:1048)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.async(DebugPlugin.java:1031)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.jdt.debug 4 5010 2018-04-18 22:00:07.296
+!MESSAGE org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 3014. occurred retrieving stack frames.
+!STACK 0
+org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 3014.
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:171)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:180)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:174)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:192)
+	at org.eclipse.jdi.internal.ThreadReferenceImpl.frames(ThreadReferenceImpl.java:241)
+	at org.eclipse.jdi.internal.ThreadReferenceImpl.frames(ThreadReferenceImpl.java:225)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.getUnderlyingFrames(JDIThread.java:608)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.computeStackFrames(JDIThread.java:520)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.computeStackFrames(JDIThread.java:584)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.getAffectedFrame(JavaHotCodeReplaceManager.java:815)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.getAffectedFrames(JavaHotCodeReplaceManager.java:785)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.attemptPopFrames(JavaHotCodeReplaceManager.java:735)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.doHotCodeReplace(JavaHotCodeReplaceManager.java:451)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.access$0(JavaHotCodeReplaceManager.java:421)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager$1.run(JavaHotCodeReplaceManager.java:310)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.run(DebugPlugin.java:1048)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.async(DebugPlugin.java:1031)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jdt.debug 4 125 2018-04-18 22:00:15.884
+!MESSAGE Internal error logged from JDI Debug: 
+!STACK 0
+org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 3078.
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:171)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:180)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:174)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:192)
+	at org.eclipse.jdi.internal.VirtualMachineImpl.classesBySignature(VirtualMachineImpl.java:599)
+	at org.eclipse.jdi.internal.VirtualMachineImpl.classesByName(VirtualMachineImpl.java:626)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.jdiClassesByName(JDIDebugTarget.java:1510)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.getTypesToBytes(JavaHotCodeReplaceManager.java:635)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.redefineTypesJDK(JavaHotCodeReplaceManager.java:569)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.doHotCodeReplace(JavaHotCodeReplaceManager.java:461)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.access$0(JavaHotCodeReplaceManager.java:421)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager$1.run(JavaHotCodeReplaceManager.java:310)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.run(DebugPlugin.java:1048)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.async(DebugPlugin.java:1031)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jdt.debug 4 125 2018-04-18 22:00:25.346
+!MESSAGE Internal error logged from JDI Debug: 
+!STACK 0
+org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 3085.
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:171)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:180)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:174)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:192)
+	at org.eclipse.jdi.internal.VirtualMachineImpl.classesBySignature(VirtualMachineImpl.java:599)
+	at org.eclipse.jdi.internal.VirtualMachineImpl.classesByName(VirtualMachineImpl.java:626)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.jdiClassesByName(JDIDebugTarget.java:1510)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.getTypesToBytes(JavaHotCodeReplaceManager.java:635)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.redefineTypesJDK(JavaHotCodeReplaceManager.java:569)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.doHotCodeReplace(JavaHotCodeReplaceManager.java:461)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.access$0(JavaHotCodeReplaceManager.java:421)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager$1.run(JavaHotCodeReplaceManager.java:310)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.run(DebugPlugin.java:1048)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.async(DebugPlugin.java:1031)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jdt.debug 4 5010 2018-04-18 22:00:28.471
+!MESSAGE At least one target failed to drop to frame after successful hot code replace.
+!SUBENTRY 1 org.eclipse.jdt.debug 4 5010 2018-04-18 22:00:28.471
+!MESSAGE org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 3077. occurred retrieving stack frames.
+!STACK 0
+org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 3077.
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:171)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:180)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:174)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:192)
+	at org.eclipse.jdi.internal.ThreadReferenceImpl.frames(ThreadReferenceImpl.java:241)
+	at org.eclipse.jdi.internal.ThreadReferenceImpl.frames(ThreadReferenceImpl.java:225)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.getUnderlyingFrames(JDIThread.java:608)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.computeStackFrames(JDIThread.java:520)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.computeStackFrames(JDIThread.java:584)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.getAffectedFrame(JavaHotCodeReplaceManager.java:815)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.getAffectedFrames(JavaHotCodeReplaceManager.java:785)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.attemptPopFrames(JavaHotCodeReplaceManager.java:735)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.doHotCodeReplace(JavaHotCodeReplaceManager.java:451)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.access$0(JavaHotCodeReplaceManager.java:421)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager$1.run(JavaHotCodeReplaceManager.java:310)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.run(DebugPlugin.java:1048)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.async(DebugPlugin.java:1031)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.jdt.debug 4 5010 2018-04-18 22:00:28.471
+!MESSAGE org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 3084. occurred retrieving stack frames.
+!STACK 0
+org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 3084.
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:171)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:180)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:174)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:192)
+	at org.eclipse.jdi.internal.ThreadReferenceImpl.frames(ThreadReferenceImpl.java:241)
+	at org.eclipse.jdi.internal.ThreadReferenceImpl.frames(ThreadReferenceImpl.java:225)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.getUnderlyingFrames(JDIThread.java:608)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.computeStackFrames(JDIThread.java:520)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.computeStackFrames(JDIThread.java:584)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.getAffectedFrame(JavaHotCodeReplaceManager.java:815)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.getAffectedFrames(JavaHotCodeReplaceManager.java:785)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.attemptPopFrames(JavaHotCodeReplaceManager.java:735)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.doHotCodeReplace(JavaHotCodeReplaceManager.java:451)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.access$0(JavaHotCodeReplaceManager.java:421)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager$1.run(JavaHotCodeReplaceManager.java:310)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.run(DebugPlugin.java:1048)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.async(DebugPlugin.java:1031)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jdt.debug 4 125 2018-04-18 22:00:36.815
+!MESSAGE Internal error logged from JDI Debug: 
+!STACK 0
+org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 3148.
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:171)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:180)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:174)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:192)
+	at org.eclipse.jdi.internal.VirtualMachineImpl.classesBySignature(VirtualMachineImpl.java:599)
+	at org.eclipse.jdi.internal.VirtualMachineImpl.classesByName(VirtualMachineImpl.java:626)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.jdiClassesByName(JDIDebugTarget.java:1510)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.getTypesToBytes(JavaHotCodeReplaceManager.java:635)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.redefineTypesJDK(JavaHotCodeReplaceManager.java:569)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.doHotCodeReplace(JavaHotCodeReplaceManager.java:461)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.access$0(JavaHotCodeReplaceManager.java:421)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager$1.run(JavaHotCodeReplaceManager.java:310)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.run(DebugPlugin.java:1048)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.async(DebugPlugin.java:1031)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jdt.debug 4 125 2018-04-18 22:00:46.159
+!MESSAGE Internal error logged from JDI Debug: 
+!STACK 0
+org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 3155.
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:171)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:180)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:174)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:192)
+	at org.eclipse.jdi.internal.VirtualMachineImpl.classesBySignature(VirtualMachineImpl.java:599)
+	at org.eclipse.jdi.internal.VirtualMachineImpl.classesByName(VirtualMachineImpl.java:626)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.jdiClassesByName(JDIDebugTarget.java:1510)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.getTypesToBytes(JavaHotCodeReplaceManager.java:635)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.redefineTypesJDK(JavaHotCodeReplaceManager.java:569)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.doHotCodeReplace(JavaHotCodeReplaceManager.java:461)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.access$0(JavaHotCodeReplaceManager.java:421)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager$1.run(JavaHotCodeReplaceManager.java:310)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.run(DebugPlugin.java:1048)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.async(DebugPlugin.java:1031)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jdt.debug 4 5010 2018-04-18 22:00:49.284
+!MESSAGE At least one target failed to drop to frame after successful hot code replace.
+!SUBENTRY 1 org.eclipse.jdt.debug 4 5010 2018-04-18 22:00:49.284
+!MESSAGE org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 3147. occurred retrieving stack frames.
+!STACK 0
+org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 3147.
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:171)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:180)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:174)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:192)
+	at org.eclipse.jdi.internal.ThreadReferenceImpl.frames(ThreadReferenceImpl.java:241)
+	at org.eclipse.jdi.internal.ThreadReferenceImpl.frames(ThreadReferenceImpl.java:225)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.getUnderlyingFrames(JDIThread.java:608)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.computeStackFrames(JDIThread.java:520)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.computeStackFrames(JDIThread.java:584)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.getAffectedFrame(JavaHotCodeReplaceManager.java:815)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.getAffectedFrames(JavaHotCodeReplaceManager.java:785)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.attemptPopFrames(JavaHotCodeReplaceManager.java:735)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.doHotCodeReplace(JavaHotCodeReplaceManager.java:451)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.access$0(JavaHotCodeReplaceManager.java:421)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager$1.run(JavaHotCodeReplaceManager.java:310)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.run(DebugPlugin.java:1048)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.async(DebugPlugin.java:1031)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.jdt.debug 4 5010 2018-04-18 22:00:49.284
+!MESSAGE org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 3154. occurred retrieving stack frames.
+!STACK 0
+org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 3154.
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:171)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:180)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:174)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:192)
+	at org.eclipse.jdi.internal.ThreadReferenceImpl.frames(ThreadReferenceImpl.java:241)
+	at org.eclipse.jdi.internal.ThreadReferenceImpl.frames(ThreadReferenceImpl.java:225)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.getUnderlyingFrames(JDIThread.java:608)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.computeStackFrames(JDIThread.java:520)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.computeStackFrames(JDIThread.java:584)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.getAffectedFrame(JavaHotCodeReplaceManager.java:815)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.getAffectedFrames(JavaHotCodeReplaceManager.java:785)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.attemptPopFrames(JavaHotCodeReplaceManager.java:735)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.doHotCodeReplace(JavaHotCodeReplaceManager.java:451)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.access$0(JavaHotCodeReplaceManager.java:421)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager$1.run(JavaHotCodeReplaceManager.java:310)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.run(DebugPlugin.java:1048)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.async(DebugPlugin.java:1031)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jdt.debug 4 125 2018-04-18 22:01:19.644
+!MESSAGE Internal error logged from JDI Debug: 
+!STACK 0
+org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 3218.
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:171)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:180)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:174)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:192)
+	at org.eclipse.jdi.internal.VirtualMachineImpl.classesBySignature(VirtualMachineImpl.java:599)
+	at org.eclipse.jdi.internal.VirtualMachineImpl.classesByName(VirtualMachineImpl.java:626)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.jdiClassesByName(JDIDebugTarget.java:1510)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.getTypesToBytes(JavaHotCodeReplaceManager.java:635)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.redefineTypesJDK(JavaHotCodeReplaceManager.java:569)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.doHotCodeReplace(JavaHotCodeReplaceManager.java:461)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.access$0(JavaHotCodeReplaceManager.java:421)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager$1.run(JavaHotCodeReplaceManager.java:310)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.run(DebugPlugin.java:1048)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.async(DebugPlugin.java:1031)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jdt.debug 4 125 2018-04-18 22:01:28.690
+!MESSAGE Internal error logged from JDI Debug: 
+!STACK 0
+org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 3225.
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:171)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:180)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:174)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:192)
+	at org.eclipse.jdi.internal.VirtualMachineImpl.classesBySignature(VirtualMachineImpl.java:599)
+	at org.eclipse.jdi.internal.VirtualMachineImpl.classesByName(VirtualMachineImpl.java:626)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.jdiClassesByName(JDIDebugTarget.java:1510)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.getTypesToBytes(JavaHotCodeReplaceManager.java:635)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.redefineTypesJDK(JavaHotCodeReplaceManager.java:569)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.doHotCodeReplace(JavaHotCodeReplaceManager.java:461)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.access$0(JavaHotCodeReplaceManager.java:421)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager$1.run(JavaHotCodeReplaceManager.java:310)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.run(DebugPlugin.java:1048)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.async(DebugPlugin.java:1031)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jdt.debug 4 5010 2018-04-18 22:01:31.815
+!MESSAGE At least one target failed to drop to frame after successful hot code replace.
+!SUBENTRY 1 org.eclipse.jdt.debug 4 5010 2018-04-18 22:01:31.815
+!MESSAGE org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 3217. occurred retrieving stack frames.
+!STACK 0
+org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 3217.
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:171)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:180)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:174)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:192)
+	at org.eclipse.jdi.internal.ThreadReferenceImpl.frames(ThreadReferenceImpl.java:241)
+	at org.eclipse.jdi.internal.ThreadReferenceImpl.frames(ThreadReferenceImpl.java:225)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.getUnderlyingFrames(JDIThread.java:608)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.computeStackFrames(JDIThread.java:520)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.computeStackFrames(JDIThread.java:584)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.getAffectedFrame(JavaHotCodeReplaceManager.java:815)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.getAffectedFrames(JavaHotCodeReplaceManager.java:785)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.attemptPopFrames(JavaHotCodeReplaceManager.java:735)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.doHotCodeReplace(JavaHotCodeReplaceManager.java:451)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.access$0(JavaHotCodeReplaceManager.java:421)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager$1.run(JavaHotCodeReplaceManager.java:310)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.run(DebugPlugin.java:1048)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.async(DebugPlugin.java:1031)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.jdt.debug 4 5010 2018-04-18 22:01:31.815
+!MESSAGE org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 3224. occurred retrieving stack frames.
+!STACK 0
+org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 3224.
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:171)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:180)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:174)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:192)
+	at org.eclipse.jdi.internal.ThreadReferenceImpl.frames(ThreadReferenceImpl.java:241)
+	at org.eclipse.jdi.internal.ThreadReferenceImpl.frames(ThreadReferenceImpl.java:225)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.getUnderlyingFrames(JDIThread.java:608)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.computeStackFrames(JDIThread.java:520)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.computeStackFrames(JDIThread.java:584)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.getAffectedFrame(JavaHotCodeReplaceManager.java:815)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.getAffectedFrames(JavaHotCodeReplaceManager.java:785)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.attemptPopFrames(JavaHotCodeReplaceManager.java:735)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.doHotCodeReplace(JavaHotCodeReplaceManager.java:451)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.access$0(JavaHotCodeReplaceManager.java:421)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager$1.run(JavaHotCodeReplaceManager.java:310)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.run(DebugPlugin.java:1048)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.async(DebugPlugin.java:1031)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jdt.debug 4 125 2018-04-18 22:02:12.136
+!MESSAGE Internal error logged from JDI Debug: 
+!STACK 0
+org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 3288.
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:171)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:180)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:174)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:192)
+	at org.eclipse.jdi.internal.VirtualMachineImpl.classesBySignature(VirtualMachineImpl.java:599)
+	at org.eclipse.jdi.internal.VirtualMachineImpl.classesByName(VirtualMachineImpl.java:626)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.jdiClassesByName(JDIDebugTarget.java:1510)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.getTypesToBytes(JavaHotCodeReplaceManager.java:635)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.redefineTypesJDK(JavaHotCodeReplaceManager.java:569)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.doHotCodeReplace(JavaHotCodeReplaceManager.java:461)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.access$0(JavaHotCodeReplaceManager.java:421)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager$1.run(JavaHotCodeReplaceManager.java:310)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.run(DebugPlugin.java:1048)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.async(DebugPlugin.java:1031)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jdt.debug 4 125 2018-04-18 22:02:21.167
+!MESSAGE Internal error logged from JDI Debug: 
+!STACK 0
+org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 3345.
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:171)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:180)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:174)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:192)
+	at org.eclipse.jdi.internal.VirtualMachineImpl.classesBySignature(VirtualMachineImpl.java:599)
+	at org.eclipse.jdi.internal.VirtualMachineImpl.classesByName(VirtualMachineImpl.java:626)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.jdiClassesByName(JDIDebugTarget.java:1510)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.getTypesToBytes(JavaHotCodeReplaceManager.java:635)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.redefineTypesJDK(JavaHotCodeReplaceManager.java:569)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.doHotCodeReplace(JavaHotCodeReplaceManager.java:461)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.access$0(JavaHotCodeReplaceManager.java:421)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager$1.run(JavaHotCodeReplaceManager.java:310)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.run(DebugPlugin.java:1048)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.async(DebugPlugin.java:1031)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jdt.debug 4 5010 2018-04-18 22:02:24.292
+!MESSAGE At least one target failed to drop to frame after successful hot code replace.
+!SUBENTRY 1 org.eclipse.jdt.debug 4 5010 2018-04-18 22:02:24.292
+!MESSAGE org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 3287. occurred retrieving stack frames.
+!STACK 0
+org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 3287.
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:171)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:180)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:174)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:192)
+	at org.eclipse.jdi.internal.ThreadReferenceImpl.frames(ThreadReferenceImpl.java:241)
+	at org.eclipse.jdi.internal.ThreadReferenceImpl.frames(ThreadReferenceImpl.java:225)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.getUnderlyingFrames(JDIThread.java:608)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.computeStackFrames(JDIThread.java:520)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.computeStackFrames(JDIThread.java:584)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.getAffectedFrame(JavaHotCodeReplaceManager.java:815)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.getAffectedFrames(JavaHotCodeReplaceManager.java:785)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.attemptPopFrames(JavaHotCodeReplaceManager.java:735)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.doHotCodeReplace(JavaHotCodeReplaceManager.java:451)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.access$0(JavaHotCodeReplaceManager.java:421)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager$1.run(JavaHotCodeReplaceManager.java:310)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.run(DebugPlugin.java:1048)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.async(DebugPlugin.java:1031)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.jdt.debug 4 5010 2018-04-18 22:02:24.292
+!MESSAGE org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 3344. occurred retrieving stack frames.
+!STACK 0
+org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 3344.
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:171)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:180)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:174)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:192)
+	at org.eclipse.jdi.internal.ThreadReferenceImpl.frames(ThreadReferenceImpl.java:241)
+	at org.eclipse.jdi.internal.ThreadReferenceImpl.frames(ThreadReferenceImpl.java:225)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.getUnderlyingFrames(JDIThread.java:608)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.computeStackFrames(JDIThread.java:520)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.computeStackFrames(JDIThread.java:584)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.getAffectedFrame(JavaHotCodeReplaceManager.java:815)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.getAffectedFrames(JavaHotCodeReplaceManager.java:785)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.attemptPopFrames(JavaHotCodeReplaceManager.java:735)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.doHotCodeReplace(JavaHotCodeReplaceManager.java:451)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.access$0(JavaHotCodeReplaceManager.java:421)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager$1.run(JavaHotCodeReplaceManager.java:310)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.run(DebugPlugin.java:1048)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.async(DebugPlugin.java:1031)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jdt.debug 4 125 2018-04-18 22:02:32.159
+!MESSAGE Internal error logged from JDI Debug: 
+!STACK 0
+org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 3408.
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:171)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:180)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:174)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:192)
+	at org.eclipse.jdi.internal.VirtualMachineImpl.classesBySignature(VirtualMachineImpl.java:599)
+	at org.eclipse.jdi.internal.VirtualMachineImpl.classesByName(VirtualMachineImpl.java:626)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.jdiClassesByName(JDIDebugTarget.java:1510)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.getTypesToBytes(JavaHotCodeReplaceManager.java:635)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.redefineTypesJDK(JavaHotCodeReplaceManager.java:569)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.doHotCodeReplace(JavaHotCodeReplaceManager.java:461)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.access$0(JavaHotCodeReplaceManager.java:421)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager$1.run(JavaHotCodeReplaceManager.java:310)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.run(DebugPlugin.java:1048)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.async(DebugPlugin.java:1031)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jdt.debug 4 125 2018-04-18 22:02:42.373
+!MESSAGE Internal error logged from JDI Debug: 
+!STACK 0
+org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 3415.
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:171)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:180)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:174)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:192)
+	at org.eclipse.jdi.internal.VirtualMachineImpl.classesBySignature(VirtualMachineImpl.java:599)
+	at org.eclipse.jdi.internal.VirtualMachineImpl.classesByName(VirtualMachineImpl.java:626)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.jdiClassesByName(JDIDebugTarget.java:1510)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.getTypesToBytes(JavaHotCodeReplaceManager.java:635)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.redefineTypesJDK(JavaHotCodeReplaceManager.java:569)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.doHotCodeReplace(JavaHotCodeReplaceManager.java:461)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.access$0(JavaHotCodeReplaceManager.java:421)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager$1.run(JavaHotCodeReplaceManager.java:310)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.run(DebugPlugin.java:1048)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.async(DebugPlugin.java:1031)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jdt.debug 4 5010 2018-04-18 22:02:45.498
+!MESSAGE At least one target failed to drop to frame after successful hot code replace.
+!SUBENTRY 1 org.eclipse.jdt.debug 4 5010 2018-04-18 22:02:45.498
+!MESSAGE org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 3407. occurred retrieving stack frames.
+!STACK 0
+org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 3407.
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:171)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:180)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:174)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:192)
+	at org.eclipse.jdi.internal.ThreadReferenceImpl.frames(ThreadReferenceImpl.java:241)
+	at org.eclipse.jdi.internal.ThreadReferenceImpl.frames(ThreadReferenceImpl.java:225)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.getUnderlyingFrames(JDIThread.java:608)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.computeStackFrames(JDIThread.java:520)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.computeStackFrames(JDIThread.java:584)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.getAffectedFrame(JavaHotCodeReplaceManager.java:815)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.getAffectedFrames(JavaHotCodeReplaceManager.java:785)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.attemptPopFrames(JavaHotCodeReplaceManager.java:735)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.doHotCodeReplace(JavaHotCodeReplaceManager.java:451)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.access$0(JavaHotCodeReplaceManager.java:421)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager$1.run(JavaHotCodeReplaceManager.java:310)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.run(DebugPlugin.java:1048)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.async(DebugPlugin.java:1031)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.jdt.debug 4 5010 2018-04-18 22:02:45.498
+!MESSAGE org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 3414. occurred retrieving stack frames.
+!STACK 0
+org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 3414.
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:171)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:180)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:174)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:192)
+	at org.eclipse.jdi.internal.ThreadReferenceImpl.frames(ThreadReferenceImpl.java:241)
+	at org.eclipse.jdi.internal.ThreadReferenceImpl.frames(ThreadReferenceImpl.java:225)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.getUnderlyingFrames(JDIThread.java:608)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.computeStackFrames(JDIThread.java:520)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.computeStackFrames(JDIThread.java:584)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.getAffectedFrame(JavaHotCodeReplaceManager.java:815)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.getAffectedFrames(JavaHotCodeReplaceManager.java:785)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.attemptPopFrames(JavaHotCodeReplaceManager.java:735)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.doHotCodeReplace(JavaHotCodeReplaceManager.java:451)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.access$0(JavaHotCodeReplaceManager.java:421)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager$1.run(JavaHotCodeReplaceManager.java:310)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.run(DebugPlugin.java:1048)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.async(DebugPlugin.java:1031)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jdt.debug 4 125 2018-04-18 22:02:53.393
+!MESSAGE Internal error logged from JDI Debug: 
+!STACK 0
+org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 3496.
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:171)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:180)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:174)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:192)
+	at org.eclipse.jdi.internal.VirtualMachineImpl.classesBySignature(VirtualMachineImpl.java:599)
+	at org.eclipse.jdi.internal.VirtualMachineImpl.classesByName(VirtualMachineImpl.java:626)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.jdiClassesByName(JDIDebugTarget.java:1510)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.getTypesToBytes(JavaHotCodeReplaceManager.java:635)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.redefineTypesJDK(JavaHotCodeReplaceManager.java:569)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.doHotCodeReplace(JavaHotCodeReplaceManager.java:461)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.access$0(JavaHotCodeReplaceManager.java:421)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager$1.run(JavaHotCodeReplaceManager.java:310)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.run(DebugPlugin.java:1048)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.async(DebugPlugin.java:1031)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jdt.debug 4 125 2018-04-18 22:03:03.456
+!MESSAGE Internal error logged from JDI Debug: 
+!STACK 0
+org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 3503.
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:171)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:180)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:174)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:192)
+	at org.eclipse.jdi.internal.VirtualMachineImpl.classesBySignature(VirtualMachineImpl.java:599)
+	at org.eclipse.jdi.internal.VirtualMachineImpl.classesByName(VirtualMachineImpl.java:626)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.jdiClassesByName(JDIDebugTarget.java:1510)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.getTypesToBytes(JavaHotCodeReplaceManager.java:635)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.redefineTypesJDK(JavaHotCodeReplaceManager.java:569)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.doHotCodeReplace(JavaHotCodeReplaceManager.java:461)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.access$0(JavaHotCodeReplaceManager.java:421)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager$1.run(JavaHotCodeReplaceManager.java:310)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.run(DebugPlugin.java:1048)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.async(DebugPlugin.java:1031)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jdt.debug 4 5010 2018-04-18 22:03:06.581
+!MESSAGE At least one target failed to drop to frame after successful hot code replace.
+!SUBENTRY 1 org.eclipse.jdt.debug 4 5010 2018-04-18 22:03:06.581
+!MESSAGE org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 3495. occurred retrieving stack frames.
+!STACK 0
+org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 3495.
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:171)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:180)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:174)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:192)
+	at org.eclipse.jdi.internal.ThreadReferenceImpl.frames(ThreadReferenceImpl.java:241)
+	at org.eclipse.jdi.internal.ThreadReferenceImpl.frames(ThreadReferenceImpl.java:225)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.getUnderlyingFrames(JDIThread.java:608)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.computeStackFrames(JDIThread.java:520)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.computeStackFrames(JDIThread.java:584)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.getAffectedFrame(JavaHotCodeReplaceManager.java:815)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.getAffectedFrames(JavaHotCodeReplaceManager.java:785)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.attemptPopFrames(JavaHotCodeReplaceManager.java:735)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.doHotCodeReplace(JavaHotCodeReplaceManager.java:451)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.access$0(JavaHotCodeReplaceManager.java:421)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager$1.run(JavaHotCodeReplaceManager.java:310)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.run(DebugPlugin.java:1048)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.async(DebugPlugin.java:1031)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.jdt.debug 4 5010 2018-04-18 22:03:06.581
+!MESSAGE org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 3502. occurred retrieving stack frames.
+!STACK 0
+org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 3502.
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:171)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:180)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:174)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:192)
+	at org.eclipse.jdi.internal.ThreadReferenceImpl.frames(ThreadReferenceImpl.java:241)
+	at org.eclipse.jdi.internal.ThreadReferenceImpl.frames(ThreadReferenceImpl.java:225)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.getUnderlyingFrames(JDIThread.java:608)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.computeStackFrames(JDIThread.java:520)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.computeStackFrames(JDIThread.java:584)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.getAffectedFrame(JavaHotCodeReplaceManager.java:815)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.getAffectedFrames(JavaHotCodeReplaceManager.java:785)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.attemptPopFrames(JavaHotCodeReplaceManager.java:735)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.doHotCodeReplace(JavaHotCodeReplaceManager.java:451)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.access$0(JavaHotCodeReplaceManager.java:421)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager$1.run(JavaHotCodeReplaceManager.java:310)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.run(DebugPlugin.java:1048)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.async(DebugPlugin.java:1031)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jdt.debug 4 125 2018-04-18 22:03:55.886
+!MESSAGE Internal error logged from JDI Debug: 
+!STACK 0
+org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 3569.
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:171)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:180)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:174)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:192)
+	at org.eclipse.jdi.internal.VirtualMachineImpl.classesBySignature(VirtualMachineImpl.java:599)
+	at org.eclipse.jdi.internal.VirtualMachineImpl.classesByName(VirtualMachineImpl.java:626)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.jdiClassesByName(JDIDebugTarget.java:1510)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.getTypesToBytes(JavaHotCodeReplaceManager.java:635)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.redefineTypesJDK(JavaHotCodeReplaceManager.java:569)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.doHotCodeReplace(JavaHotCodeReplaceManager.java:461)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.access$0(JavaHotCodeReplaceManager.java:421)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager$1.run(JavaHotCodeReplaceManager.java:310)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.run(DebugPlugin.java:1048)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.async(DebugPlugin.java:1031)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jdt.debug 4 125 2018-04-18 22:04:04.912
+!MESSAGE Internal error logged from JDI Debug: 
+!STACK 0
+org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 3576.
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:171)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:180)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:174)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:192)
+	at org.eclipse.jdi.internal.VirtualMachineImpl.classesBySignature(VirtualMachineImpl.java:599)
+	at org.eclipse.jdi.internal.VirtualMachineImpl.classesByName(VirtualMachineImpl.java:626)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.jdiClassesByName(JDIDebugTarget.java:1510)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.getTypesToBytes(JavaHotCodeReplaceManager.java:635)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.redefineTypesJDK(JavaHotCodeReplaceManager.java:569)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.doHotCodeReplace(JavaHotCodeReplaceManager.java:461)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.access$0(JavaHotCodeReplaceManager.java:421)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager$1.run(JavaHotCodeReplaceManager.java:310)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.run(DebugPlugin.java:1048)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.async(DebugPlugin.java:1031)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jdt.debug 4 5010 2018-04-18 22:04:08.065
+!MESSAGE At least one target failed to drop to frame after successful hot code replace.
+!SUBENTRY 1 org.eclipse.jdt.debug 4 5010 2018-04-18 22:04:08.065
+!MESSAGE org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 3568. occurred retrieving stack frames.
+!STACK 0
+org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 3568.
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:171)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:180)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:174)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:192)
+	at org.eclipse.jdi.internal.ThreadReferenceImpl.frames(ThreadReferenceImpl.java:241)
+	at org.eclipse.jdi.internal.ThreadReferenceImpl.frames(ThreadReferenceImpl.java:225)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.getUnderlyingFrames(JDIThread.java:608)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.computeStackFrames(JDIThread.java:520)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.computeStackFrames(JDIThread.java:584)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.getAffectedFrame(JavaHotCodeReplaceManager.java:815)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.getAffectedFrames(JavaHotCodeReplaceManager.java:785)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.attemptPopFrames(JavaHotCodeReplaceManager.java:735)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.doHotCodeReplace(JavaHotCodeReplaceManager.java:451)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.access$0(JavaHotCodeReplaceManager.java:421)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager$1.run(JavaHotCodeReplaceManager.java:310)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.run(DebugPlugin.java:1048)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.async(DebugPlugin.java:1031)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.jdt.debug 4 5010 2018-04-18 22:04:08.065
+!MESSAGE org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 3575. occurred retrieving stack frames.
+!STACK 0
+org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 3575.
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:171)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:180)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:174)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:192)
+	at org.eclipse.jdi.internal.ThreadReferenceImpl.frames(ThreadReferenceImpl.java:241)
+	at org.eclipse.jdi.internal.ThreadReferenceImpl.frames(ThreadReferenceImpl.java:225)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.getUnderlyingFrames(JDIThread.java:608)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.computeStackFrames(JDIThread.java:520)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.computeStackFrames(JDIThread.java:584)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.getAffectedFrame(JavaHotCodeReplaceManager.java:815)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.getAffectedFrames(JavaHotCodeReplaceManager.java:785)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.attemptPopFrames(JavaHotCodeReplaceManager.java:735)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.doHotCodeReplace(JavaHotCodeReplaceManager.java:451)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.access$0(JavaHotCodeReplaceManager.java:421)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager$1.run(JavaHotCodeReplaceManager.java:310)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.run(DebugPlugin.java:1048)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.async(DebugPlugin.java:1031)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jdt.debug 4 125 2018-04-18 22:04:31.094
+!MESSAGE Internal error logged from JDI Debug: 
+!STACK 0
+org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 3642.
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:171)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:180)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:174)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:192)
+	at org.eclipse.jdi.internal.VirtualMachineImpl.classesBySignature(VirtualMachineImpl.java:599)
+	at org.eclipse.jdi.internal.VirtualMachineImpl.classesByName(VirtualMachineImpl.java:626)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.jdiClassesByName(JDIDebugTarget.java:1510)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.getTypesToBytes(JavaHotCodeReplaceManager.java:635)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.redefineTypesJDK(JavaHotCodeReplaceManager.java:569)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.doHotCodeReplace(JavaHotCodeReplaceManager.java:461)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.access$0(JavaHotCodeReplaceManager.java:421)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager$1.run(JavaHotCodeReplaceManager.java:310)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.run(DebugPlugin.java:1048)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.async(DebugPlugin.java:1031)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jdt.debug 4 125 2018-04-18 22:04:40.109
+!MESSAGE Internal error logged from JDI Debug: 
+!STACK 0
+org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 3649.
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:171)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:180)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:174)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:192)
+	at org.eclipse.jdi.internal.VirtualMachineImpl.classesBySignature(VirtualMachineImpl.java:599)
+	at org.eclipse.jdi.internal.VirtualMachineImpl.classesByName(VirtualMachineImpl.java:626)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.jdiClassesByName(JDIDebugTarget.java:1510)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.getTypesToBytes(JavaHotCodeReplaceManager.java:635)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.redefineTypesJDK(JavaHotCodeReplaceManager.java:569)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.doHotCodeReplace(JavaHotCodeReplaceManager.java:461)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.access$0(JavaHotCodeReplaceManager.java:421)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager$1.run(JavaHotCodeReplaceManager.java:310)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.run(DebugPlugin.java:1048)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.async(DebugPlugin.java:1031)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jdt.debug 4 5010 2018-04-18 22:04:43.234
+!MESSAGE At least one target failed to drop to frame after successful hot code replace.
+!SUBENTRY 1 org.eclipse.jdt.debug 4 5010 2018-04-18 22:04:43.234
+!MESSAGE org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 3641. occurred retrieving stack frames.
+!STACK 0
+org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 3641.
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:171)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:180)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:174)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:192)
+	at org.eclipse.jdi.internal.ThreadReferenceImpl.frames(ThreadReferenceImpl.java:241)
+	at org.eclipse.jdi.internal.ThreadReferenceImpl.frames(ThreadReferenceImpl.java:225)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.getUnderlyingFrames(JDIThread.java:608)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.computeStackFrames(JDIThread.java:520)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.computeStackFrames(JDIThread.java:584)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.getAffectedFrame(JavaHotCodeReplaceManager.java:815)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.getAffectedFrames(JavaHotCodeReplaceManager.java:785)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.attemptPopFrames(JavaHotCodeReplaceManager.java:735)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.doHotCodeReplace(JavaHotCodeReplaceManager.java:451)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.access$0(JavaHotCodeReplaceManager.java:421)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager$1.run(JavaHotCodeReplaceManager.java:310)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.run(DebugPlugin.java:1048)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.async(DebugPlugin.java:1031)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.jdt.debug 4 5010 2018-04-18 22:04:43.234
+!MESSAGE org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 3648. occurred retrieving stack frames.
+!STACK 0
+org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 3648.
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:171)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:180)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:174)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:192)
+	at org.eclipse.jdi.internal.ThreadReferenceImpl.frames(ThreadReferenceImpl.java:241)
+	at org.eclipse.jdi.internal.ThreadReferenceImpl.frames(ThreadReferenceImpl.java:225)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.getUnderlyingFrames(JDIThread.java:608)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.computeStackFrames(JDIThread.java:520)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.computeStackFrames(JDIThread.java:584)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.getAffectedFrame(JavaHotCodeReplaceManager.java:815)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.getAffectedFrames(JavaHotCodeReplaceManager.java:785)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.attemptPopFrames(JavaHotCodeReplaceManager.java:735)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.doHotCodeReplace(JavaHotCodeReplaceManager.java:451)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.access$0(JavaHotCodeReplaceManager.java:421)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager$1.run(JavaHotCodeReplaceManager.java:310)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.run(DebugPlugin.java:1048)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.async(DebugPlugin.java:1031)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jdt.debug 4 125 2018-04-18 22:04:50.688
+!MESSAGE Internal error logged from JDI Debug: 
+!STACK 0
+org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 3715.
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:171)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:180)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:174)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:192)
+	at org.eclipse.jdi.internal.VirtualMachineImpl.classesBySignature(VirtualMachineImpl.java:599)
+	at org.eclipse.jdi.internal.VirtualMachineImpl.classesByName(VirtualMachineImpl.java:626)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.jdiClassesByName(JDIDebugTarget.java:1510)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.getTypesToBytes(JavaHotCodeReplaceManager.java:635)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.redefineTypesJDK(JavaHotCodeReplaceManager.java:569)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.doHotCodeReplace(JavaHotCodeReplaceManager.java:461)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.access$0(JavaHotCodeReplaceManager.java:421)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager$1.run(JavaHotCodeReplaceManager.java:310)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.run(DebugPlugin.java:1048)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.async(DebugPlugin.java:1031)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jdt.debug 4 125 2018-04-18 22:05:00.594
+!MESSAGE Internal error logged from JDI Debug: 
+!STACK 0
+org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 3722.
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:171)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:180)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:174)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:192)
+	at org.eclipse.jdi.internal.VirtualMachineImpl.classesBySignature(VirtualMachineImpl.java:599)
+	at org.eclipse.jdi.internal.VirtualMachineImpl.classesByName(VirtualMachineImpl.java:626)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.jdiClassesByName(JDIDebugTarget.java:1510)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.getTypesToBytes(JavaHotCodeReplaceManager.java:635)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.redefineTypesJDK(JavaHotCodeReplaceManager.java:569)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.doHotCodeReplace(JavaHotCodeReplaceManager.java:461)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.access$0(JavaHotCodeReplaceManager.java:421)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager$1.run(JavaHotCodeReplaceManager.java:310)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.run(DebugPlugin.java:1048)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.async(DebugPlugin.java:1031)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jdt.debug 4 5010 2018-04-18 22:05:03.735
+!MESSAGE At least one target failed to drop to frame after successful hot code replace.
+!SUBENTRY 1 org.eclipse.jdt.debug 4 5010 2018-04-18 22:05:03.735
+!MESSAGE org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 3714. occurred retrieving stack frames.
+!STACK 0
+org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 3714.
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:171)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:180)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:174)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:192)
+	at org.eclipse.jdi.internal.ThreadReferenceImpl.frames(ThreadReferenceImpl.java:241)
+	at org.eclipse.jdi.internal.ThreadReferenceImpl.frames(ThreadReferenceImpl.java:225)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.getUnderlyingFrames(JDIThread.java:608)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.computeStackFrames(JDIThread.java:520)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.computeStackFrames(JDIThread.java:584)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.getAffectedFrame(JavaHotCodeReplaceManager.java:815)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.getAffectedFrames(JavaHotCodeReplaceManager.java:785)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.attemptPopFrames(JavaHotCodeReplaceManager.java:735)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.doHotCodeReplace(JavaHotCodeReplaceManager.java:451)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.access$0(JavaHotCodeReplaceManager.java:421)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager$1.run(JavaHotCodeReplaceManager.java:310)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.run(DebugPlugin.java:1048)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.async(DebugPlugin.java:1031)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.jdt.debug 4 5010 2018-04-18 22:05:03.735
+!MESSAGE org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 3721. occurred retrieving stack frames.
+!STACK 0
+org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 3721.
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:171)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:180)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:174)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:192)
+	at org.eclipse.jdi.internal.ThreadReferenceImpl.frames(ThreadReferenceImpl.java:241)
+	at org.eclipse.jdi.internal.ThreadReferenceImpl.frames(ThreadReferenceImpl.java:225)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.getUnderlyingFrames(JDIThread.java:608)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.computeStackFrames(JDIThread.java:520)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.computeStackFrames(JDIThread.java:584)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.getAffectedFrame(JavaHotCodeReplaceManager.java:815)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.getAffectedFrames(JavaHotCodeReplaceManager.java:785)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.attemptPopFrames(JavaHotCodeReplaceManager.java:735)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.doHotCodeReplace(JavaHotCodeReplaceManager.java:451)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.access$0(JavaHotCodeReplaceManager.java:421)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager$1.run(JavaHotCodeReplaceManager.java:310)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.run(DebugPlugin.java:1048)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.async(DebugPlugin.java:1031)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jdt.debug 4 125 2018-04-18 22:05:25.574
+!MESSAGE Internal error logged from JDI Debug: 
+!STACK 0
+org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 3788.
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:171)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:180)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:174)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:192)
+	at org.eclipse.jdi.internal.VirtualMachineImpl.classesBySignature(VirtualMachineImpl.java:599)
+	at org.eclipse.jdi.internal.VirtualMachineImpl.classesByName(VirtualMachineImpl.java:626)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.jdiClassesByName(JDIDebugTarget.java:1510)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.getTypesToBytes(JavaHotCodeReplaceManager.java:635)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.redefineTypesJDK(JavaHotCodeReplaceManager.java:569)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.doHotCodeReplace(JavaHotCodeReplaceManager.java:461)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.access$0(JavaHotCodeReplaceManager.java:421)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager$1.run(JavaHotCodeReplaceManager.java:310)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.run(DebugPlugin.java:1048)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.async(DebugPlugin.java:1031)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jdt.debug 4 125 2018-04-18 22:05:34.592
+!MESSAGE Internal error logged from JDI Debug: 
+!STACK 0
+org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 3795.
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:171)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:180)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:174)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:192)
+	at org.eclipse.jdi.internal.VirtualMachineImpl.classesBySignature(VirtualMachineImpl.java:599)
+	at org.eclipse.jdi.internal.VirtualMachineImpl.classesByName(VirtualMachineImpl.java:626)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.jdiClassesByName(JDIDebugTarget.java:1510)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.getTypesToBytes(JavaHotCodeReplaceManager.java:635)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.redefineTypesJDK(JavaHotCodeReplaceManager.java:569)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.doHotCodeReplace(JavaHotCodeReplaceManager.java:461)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.access$0(JavaHotCodeReplaceManager.java:421)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager$1.run(JavaHotCodeReplaceManager.java:310)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.run(DebugPlugin.java:1048)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.async(DebugPlugin.java:1031)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jdt.debug 4 5010 2018-04-18 22:05:37.720
+!MESSAGE At least one target failed to drop to frame after successful hot code replace.
+!SUBENTRY 1 org.eclipse.jdt.debug 4 5010 2018-04-18 22:05:37.720
+!MESSAGE org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 3787. occurred retrieving stack frames.
+!STACK 0
+org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 3787.
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:171)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:180)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:174)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:192)
+	at org.eclipse.jdi.internal.ThreadReferenceImpl.frames(ThreadReferenceImpl.java:241)
+	at org.eclipse.jdi.internal.ThreadReferenceImpl.frames(ThreadReferenceImpl.java:225)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.getUnderlyingFrames(JDIThread.java:608)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.computeStackFrames(JDIThread.java:520)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.computeStackFrames(JDIThread.java:584)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.getAffectedFrame(JavaHotCodeReplaceManager.java:815)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.getAffectedFrames(JavaHotCodeReplaceManager.java:785)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.attemptPopFrames(JavaHotCodeReplaceManager.java:735)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.doHotCodeReplace(JavaHotCodeReplaceManager.java:451)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.access$0(JavaHotCodeReplaceManager.java:421)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager$1.run(JavaHotCodeReplaceManager.java:310)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.run(DebugPlugin.java:1048)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.async(DebugPlugin.java:1031)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.jdt.debug 4 5010 2018-04-18 22:05:37.720
+!MESSAGE org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 3794. occurred retrieving stack frames.
+!STACK 0
+org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 3794.
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:171)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:180)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:174)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:192)
+	at org.eclipse.jdi.internal.ThreadReferenceImpl.frames(ThreadReferenceImpl.java:241)
+	at org.eclipse.jdi.internal.ThreadReferenceImpl.frames(ThreadReferenceImpl.java:225)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.getUnderlyingFrames(JDIThread.java:608)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.computeStackFrames(JDIThread.java:520)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.computeStackFrames(JDIThread.java:584)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.getAffectedFrame(JavaHotCodeReplaceManager.java:815)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.getAffectedFrames(JavaHotCodeReplaceManager.java:785)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.attemptPopFrames(JavaHotCodeReplaceManager.java:735)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.doHotCodeReplace(JavaHotCodeReplaceManager.java:451)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.access$0(JavaHotCodeReplaceManager.java:421)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager$1.run(JavaHotCodeReplaceManager.java:310)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.run(DebugPlugin.java:1048)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.async(DebugPlugin.java:1031)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jdt.debug 4 125 2018-04-18 22:05:45.986
+!MESSAGE Internal error logged from JDI Debug: 
+!STACK 0
+org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 3861.
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:171)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:180)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:174)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:192)
+	at org.eclipse.jdi.internal.VirtualMachineImpl.classesBySignature(VirtualMachineImpl.java:599)
+	at org.eclipse.jdi.internal.VirtualMachineImpl.classesByName(VirtualMachineImpl.java:626)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.jdiClassesByName(JDIDebugTarget.java:1510)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.getTypesToBytes(JavaHotCodeReplaceManager.java:635)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.redefineTypesJDK(JavaHotCodeReplaceManager.java:569)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.doHotCodeReplace(JavaHotCodeReplaceManager.java:461)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.access$0(JavaHotCodeReplaceManager.java:421)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager$1.run(JavaHotCodeReplaceManager.java:310)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.run(DebugPlugin.java:1048)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.async(DebugPlugin.java:1031)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jdt.debug 4 125 2018-04-18 22:05:55.112
+!MESSAGE Internal error logged from JDI Debug: 
+!STACK 0
+org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 3868.
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:171)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:180)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:174)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:192)
+	at org.eclipse.jdi.internal.VirtualMachineImpl.classesBySignature(VirtualMachineImpl.java:599)
+	at org.eclipse.jdi.internal.VirtualMachineImpl.classesByName(VirtualMachineImpl.java:626)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.jdiClassesByName(JDIDebugTarget.java:1510)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.getTypesToBytes(JavaHotCodeReplaceManager.java:635)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.redefineTypesJDK(JavaHotCodeReplaceManager.java:569)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.doHotCodeReplace(JavaHotCodeReplaceManager.java:461)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.access$0(JavaHotCodeReplaceManager.java:421)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager$1.run(JavaHotCodeReplaceManager.java:310)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.run(DebugPlugin.java:1048)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.async(DebugPlugin.java:1031)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jdt.debug 4 5010 2018-04-18 22:05:58.222
+!MESSAGE At least one target failed to drop to frame after successful hot code replace.
+!SUBENTRY 1 org.eclipse.jdt.debug 4 5010 2018-04-18 22:05:58.222
+!MESSAGE org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 3860. occurred retrieving stack frames.
+!STACK 0
+org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 3860.
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:171)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:180)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:174)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:192)
+	at org.eclipse.jdi.internal.ThreadReferenceImpl.frames(ThreadReferenceImpl.java:241)
+	at org.eclipse.jdi.internal.ThreadReferenceImpl.frames(ThreadReferenceImpl.java:225)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.getUnderlyingFrames(JDIThread.java:608)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.computeStackFrames(JDIThread.java:520)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.computeStackFrames(JDIThread.java:584)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.getAffectedFrame(JavaHotCodeReplaceManager.java:815)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.getAffectedFrames(JavaHotCodeReplaceManager.java:785)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.attemptPopFrames(JavaHotCodeReplaceManager.java:735)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.doHotCodeReplace(JavaHotCodeReplaceManager.java:451)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.access$0(JavaHotCodeReplaceManager.java:421)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager$1.run(JavaHotCodeReplaceManager.java:310)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.run(DebugPlugin.java:1048)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.async(DebugPlugin.java:1031)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.jdt.debug 4 5010 2018-04-18 22:05:58.222
+!MESSAGE org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 3867. occurred retrieving stack frames.
+!STACK 0
+org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 3867.
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:171)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:180)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:174)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:192)
+	at org.eclipse.jdi.internal.ThreadReferenceImpl.frames(ThreadReferenceImpl.java:241)
+	at org.eclipse.jdi.internal.ThreadReferenceImpl.frames(ThreadReferenceImpl.java:225)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.getUnderlyingFrames(JDIThread.java:608)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.computeStackFrames(JDIThread.java:520)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.computeStackFrames(JDIThread.java:584)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.getAffectedFrame(JavaHotCodeReplaceManager.java:815)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.getAffectedFrames(JavaHotCodeReplaceManager.java:785)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.attemptPopFrames(JavaHotCodeReplaceManager.java:735)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.doHotCodeReplace(JavaHotCodeReplaceManager.java:451)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.access$0(JavaHotCodeReplaceManager.java:421)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager$1.run(JavaHotCodeReplaceManager.java:310)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.run(DebugPlugin.java:1048)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.async(DebugPlugin.java:1031)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jdt.debug 4 125 2018-04-18 22:06:06.378
+!MESSAGE Internal error logged from JDI Debug: 
+!STACK 0
+org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 3934.
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:171)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:180)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:174)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:192)
+	at org.eclipse.jdi.internal.VirtualMachineImpl.classesBySignature(VirtualMachineImpl.java:599)
+	at org.eclipse.jdi.internal.VirtualMachineImpl.classesByName(VirtualMachineImpl.java:626)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.jdiClassesByName(JDIDebugTarget.java:1510)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.getTypesToBytes(JavaHotCodeReplaceManager.java:635)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.redefineTypesJDK(JavaHotCodeReplaceManager.java:569)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.doHotCodeReplace(JavaHotCodeReplaceManager.java:461)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.access$0(JavaHotCodeReplaceManager.java:421)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager$1.run(JavaHotCodeReplaceManager.java:310)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.run(DebugPlugin.java:1048)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.async(DebugPlugin.java:1031)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jdt.debug 4 125 2018-04-18 22:06:15.534
+!MESSAGE Internal error logged from JDI Debug: 
+!STACK 0
+org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 3941.
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:171)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:180)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:174)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:192)
+	at org.eclipse.jdi.internal.VirtualMachineImpl.classesBySignature(VirtualMachineImpl.java:599)
+	at org.eclipse.jdi.internal.VirtualMachineImpl.classesByName(VirtualMachineImpl.java:626)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.jdiClassesByName(JDIDebugTarget.java:1510)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.getTypesToBytes(JavaHotCodeReplaceManager.java:635)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.redefineTypesJDK(JavaHotCodeReplaceManager.java:569)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.doHotCodeReplace(JavaHotCodeReplaceManager.java:461)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.access$0(JavaHotCodeReplaceManager.java:421)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager$1.run(JavaHotCodeReplaceManager.java:310)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.run(DebugPlugin.java:1048)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.async(DebugPlugin.java:1031)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jdt.debug 4 5010 2018-04-18 22:06:18.659
+!MESSAGE At least one target failed to drop to frame after successful hot code replace.
+!SUBENTRY 1 org.eclipse.jdt.debug 4 5010 2018-04-18 22:06:18.659
+!MESSAGE org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 3933. occurred retrieving stack frames.
+!STACK 0
+org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 3933.
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:171)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:180)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:174)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:192)
+	at org.eclipse.jdi.internal.ThreadReferenceImpl.frames(ThreadReferenceImpl.java:241)
+	at org.eclipse.jdi.internal.ThreadReferenceImpl.frames(ThreadReferenceImpl.java:225)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.getUnderlyingFrames(JDIThread.java:608)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.computeStackFrames(JDIThread.java:520)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.computeStackFrames(JDIThread.java:584)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.getAffectedFrame(JavaHotCodeReplaceManager.java:815)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.getAffectedFrames(JavaHotCodeReplaceManager.java:785)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.attemptPopFrames(JavaHotCodeReplaceManager.java:735)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.doHotCodeReplace(JavaHotCodeReplaceManager.java:451)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.access$0(JavaHotCodeReplaceManager.java:421)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager$1.run(JavaHotCodeReplaceManager.java:310)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.run(DebugPlugin.java:1048)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.async(DebugPlugin.java:1031)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.jdt.debug 4 5010 2018-04-18 22:06:18.659
+!MESSAGE org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 3940. occurred retrieving stack frames.
+!STACK 0
+org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 3940.
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:171)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:180)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:174)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:192)
+	at org.eclipse.jdi.internal.ThreadReferenceImpl.frames(ThreadReferenceImpl.java:241)
+	at org.eclipse.jdi.internal.ThreadReferenceImpl.frames(ThreadReferenceImpl.java:225)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.getUnderlyingFrames(JDIThread.java:608)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.computeStackFrames(JDIThread.java:520)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.computeStackFrames(JDIThread.java:584)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.getAffectedFrame(JavaHotCodeReplaceManager.java:815)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.getAffectedFrames(JavaHotCodeReplaceManager.java:785)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.attemptPopFrames(JavaHotCodeReplaceManager.java:735)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.doHotCodeReplace(JavaHotCodeReplaceManager.java:451)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.access$0(JavaHotCodeReplaceManager.java:421)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager$1.run(JavaHotCodeReplaceManager.java:310)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.run(DebugPlugin.java:1048)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.async(DebugPlugin.java:1031)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jdt.debug 4 125 2018-04-18 22:06:26.871
+!MESSAGE Internal error logged from JDI Debug: 
+!STACK 0
+org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 4007.
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:171)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:180)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:174)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:192)
+	at org.eclipse.jdi.internal.VirtualMachineImpl.classesBySignature(VirtualMachineImpl.java:599)
+	at org.eclipse.jdi.internal.VirtualMachineImpl.classesByName(VirtualMachineImpl.java:626)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.jdiClassesByName(JDIDebugTarget.java:1510)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.getTypesToBytes(JavaHotCodeReplaceManager.java:635)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.redefineTypesJDK(JavaHotCodeReplaceManager.java:569)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.doHotCodeReplace(JavaHotCodeReplaceManager.java:461)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.access$0(JavaHotCodeReplaceManager.java:421)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager$1.run(JavaHotCodeReplaceManager.java:310)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.run(DebugPlugin.java:1048)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.async(DebugPlugin.java:1031)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jdt.debug 4 125 2018-04-18 22:06:36.144
+!MESSAGE Internal error logged from JDI Debug: 
+!STACK 0
+org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 4014.
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:171)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:180)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:174)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:192)
+	at org.eclipse.jdi.internal.VirtualMachineImpl.classesBySignature(VirtualMachineImpl.java:599)
+	at org.eclipse.jdi.internal.VirtualMachineImpl.classesByName(VirtualMachineImpl.java:626)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.jdiClassesByName(JDIDebugTarget.java:1510)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.getTypesToBytes(JavaHotCodeReplaceManager.java:635)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.redefineTypesJDK(JavaHotCodeReplaceManager.java:569)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.doHotCodeReplace(JavaHotCodeReplaceManager.java:461)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.access$0(JavaHotCodeReplaceManager.java:421)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager$1.run(JavaHotCodeReplaceManager.java:310)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.run(DebugPlugin.java:1048)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.async(DebugPlugin.java:1031)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jdt.debug 4 5010 2018-04-18 22:06:39.269
+!MESSAGE At least one target failed to drop to frame after successful hot code replace.
+!SUBENTRY 1 org.eclipse.jdt.debug 4 5010 2018-04-18 22:06:39.269
+!MESSAGE org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 4006. occurred retrieving stack frames.
+!STACK 0
+org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 4006.
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:171)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:180)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:174)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:192)
+	at org.eclipse.jdi.internal.ThreadReferenceImpl.frames(ThreadReferenceImpl.java:241)
+	at org.eclipse.jdi.internal.ThreadReferenceImpl.frames(ThreadReferenceImpl.java:225)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.getUnderlyingFrames(JDIThread.java:608)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.computeStackFrames(JDIThread.java:520)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.computeStackFrames(JDIThread.java:584)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.getAffectedFrame(JavaHotCodeReplaceManager.java:815)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.getAffectedFrames(JavaHotCodeReplaceManager.java:785)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.attemptPopFrames(JavaHotCodeReplaceManager.java:735)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.doHotCodeReplace(JavaHotCodeReplaceManager.java:451)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.access$0(JavaHotCodeReplaceManager.java:421)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager$1.run(JavaHotCodeReplaceManager.java:310)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.run(DebugPlugin.java:1048)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.async(DebugPlugin.java:1031)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.jdt.debug 4 5010 2018-04-18 22:06:39.269
+!MESSAGE org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 4013. occurred retrieving stack frames.
+!STACK 0
+org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 4013.
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:171)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:180)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:174)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:192)
+	at org.eclipse.jdi.internal.ThreadReferenceImpl.frames(ThreadReferenceImpl.java:241)
+	at org.eclipse.jdi.internal.ThreadReferenceImpl.frames(ThreadReferenceImpl.java:225)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.getUnderlyingFrames(JDIThread.java:608)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.computeStackFrames(JDIThread.java:520)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.computeStackFrames(JDIThread.java:584)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.getAffectedFrame(JavaHotCodeReplaceManager.java:815)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.getAffectedFrames(JavaHotCodeReplaceManager.java:785)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.attemptPopFrames(JavaHotCodeReplaceManager.java:735)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.doHotCodeReplace(JavaHotCodeReplaceManager.java:451)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.access$0(JavaHotCodeReplaceManager.java:421)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager$1.run(JavaHotCodeReplaceManager.java:310)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.run(DebugPlugin.java:1048)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.async(DebugPlugin.java:1031)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jdt.debug 4 125 2018-04-18 22:06:47.300
+!MESSAGE Internal error logged from JDI Debug: 
+!STACK 0
+org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 4080.
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:171)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:180)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:174)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:192)
+	at org.eclipse.jdi.internal.VirtualMachineImpl.classesBySignature(VirtualMachineImpl.java:599)
+	at org.eclipse.jdi.internal.VirtualMachineImpl.classesByName(VirtualMachineImpl.java:626)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.jdiClassesByName(JDIDebugTarget.java:1510)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.getTypesToBytes(JavaHotCodeReplaceManager.java:635)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.redefineTypesJDK(JavaHotCodeReplaceManager.java:569)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.doHotCodeReplace(JavaHotCodeReplaceManager.java:461)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.access$0(JavaHotCodeReplaceManager.java:421)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager$1.run(JavaHotCodeReplaceManager.java:310)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.run(DebugPlugin.java:1048)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.async(DebugPlugin.java:1031)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jdt.debug 4 125 2018-04-18 22:06:56.394
+!MESSAGE Internal error logged from JDI Debug: 
+!STACK 0
+org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 4087.
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:171)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:180)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:174)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:192)
+	at org.eclipse.jdi.internal.VirtualMachineImpl.classesBySignature(VirtualMachineImpl.java:599)
+	at org.eclipse.jdi.internal.VirtualMachineImpl.classesByName(VirtualMachineImpl.java:626)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.jdiClassesByName(JDIDebugTarget.java:1510)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.getTypesToBytes(JavaHotCodeReplaceManager.java:635)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.redefineTypesJDK(JavaHotCodeReplaceManager.java:569)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.doHotCodeReplace(JavaHotCodeReplaceManager.java:461)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.access$0(JavaHotCodeReplaceManager.java:421)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager$1.run(JavaHotCodeReplaceManager.java:310)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.run(DebugPlugin.java:1048)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.async(DebugPlugin.java:1031)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jdt.debug 4 5010 2018-04-18 22:06:59.519
+!MESSAGE At least one target failed to drop to frame after successful hot code replace.
+!SUBENTRY 1 org.eclipse.jdt.debug 4 5010 2018-04-18 22:06:59.519
+!MESSAGE org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 4079. occurred retrieving stack frames.
+!STACK 0
+org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 4079.
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:171)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:180)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:174)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:192)
+	at org.eclipse.jdi.internal.ThreadReferenceImpl.frames(ThreadReferenceImpl.java:241)
+	at org.eclipse.jdi.internal.ThreadReferenceImpl.frames(ThreadReferenceImpl.java:225)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.getUnderlyingFrames(JDIThread.java:608)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.computeStackFrames(JDIThread.java:520)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.computeStackFrames(JDIThread.java:584)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.getAffectedFrame(JavaHotCodeReplaceManager.java:815)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.getAffectedFrames(JavaHotCodeReplaceManager.java:785)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.attemptPopFrames(JavaHotCodeReplaceManager.java:735)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.doHotCodeReplace(JavaHotCodeReplaceManager.java:451)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.access$0(JavaHotCodeReplaceManager.java:421)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager$1.run(JavaHotCodeReplaceManager.java:310)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.run(DebugPlugin.java:1048)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.async(DebugPlugin.java:1031)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.jdt.debug 4 5010 2018-04-18 22:06:59.519
+!MESSAGE org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 4086. occurred retrieving stack frames.
+!STACK 0
+org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 4086.
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:171)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:180)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:174)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:192)
+	at org.eclipse.jdi.internal.ThreadReferenceImpl.frames(ThreadReferenceImpl.java:241)
+	at org.eclipse.jdi.internal.ThreadReferenceImpl.frames(ThreadReferenceImpl.java:225)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.getUnderlyingFrames(JDIThread.java:608)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.computeStackFrames(JDIThread.java:520)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.computeStackFrames(JDIThread.java:584)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.getAffectedFrame(JavaHotCodeReplaceManager.java:815)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.getAffectedFrames(JavaHotCodeReplaceManager.java:785)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.attemptPopFrames(JavaHotCodeReplaceManager.java:735)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.doHotCodeReplace(JavaHotCodeReplaceManager.java:451)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.access$0(JavaHotCodeReplaceManager.java:421)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager$1.run(JavaHotCodeReplaceManager.java:310)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.run(DebugPlugin.java:1048)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.async(DebugPlugin.java:1031)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jdt.debug 4 125 2018-04-18 22:07:07.926
+!MESSAGE Internal error logged from JDI Debug: 
+!STACK 0
+org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 4153.
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:171)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:180)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:174)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:192)
+	at org.eclipse.jdi.internal.VirtualMachineImpl.classesBySignature(VirtualMachineImpl.java:599)
+	at org.eclipse.jdi.internal.VirtualMachineImpl.classesByName(VirtualMachineImpl.java:626)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.jdiClassesByName(JDIDebugTarget.java:1510)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.getTypesToBytes(JavaHotCodeReplaceManager.java:635)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.redefineTypesJDK(JavaHotCodeReplaceManager.java:569)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.doHotCodeReplace(JavaHotCodeReplaceManager.java:461)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.access$0(JavaHotCodeReplaceManager.java:421)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager$1.run(JavaHotCodeReplaceManager.java:310)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.run(DebugPlugin.java:1048)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.async(DebugPlugin.java:1031)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jdt.debug 4 125 2018-04-18 22:07:17.426
+!MESSAGE Internal error logged from JDI Debug: 
+!STACK 0
+org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 4160.
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:171)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:180)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:174)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:192)
+	at org.eclipse.jdi.internal.VirtualMachineImpl.classesBySignature(VirtualMachineImpl.java:599)
+	at org.eclipse.jdi.internal.VirtualMachineImpl.classesByName(VirtualMachineImpl.java:626)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.jdiClassesByName(JDIDebugTarget.java:1510)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.getTypesToBytes(JavaHotCodeReplaceManager.java:635)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.redefineTypesJDK(JavaHotCodeReplaceManager.java:569)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.doHotCodeReplace(JavaHotCodeReplaceManager.java:461)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.access$0(JavaHotCodeReplaceManager.java:421)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager$1.run(JavaHotCodeReplaceManager.java:310)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.run(DebugPlugin.java:1048)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.async(DebugPlugin.java:1031)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jdt.debug 4 5010 2018-04-18 22:07:20.535
+!MESSAGE At least one target failed to drop to frame after successful hot code replace.
+!SUBENTRY 1 org.eclipse.jdt.debug 4 5010 2018-04-18 22:07:20.535
+!MESSAGE org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 4152. occurred retrieving stack frames.
+!STACK 0
+org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 4152.
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:171)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:180)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:174)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:192)
+	at org.eclipse.jdi.internal.ThreadReferenceImpl.frames(ThreadReferenceImpl.java:241)
+	at org.eclipse.jdi.internal.ThreadReferenceImpl.frames(ThreadReferenceImpl.java:225)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.getUnderlyingFrames(JDIThread.java:608)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.computeStackFrames(JDIThread.java:520)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.computeStackFrames(JDIThread.java:584)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.getAffectedFrame(JavaHotCodeReplaceManager.java:815)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.getAffectedFrames(JavaHotCodeReplaceManager.java:785)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.attemptPopFrames(JavaHotCodeReplaceManager.java:735)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.doHotCodeReplace(JavaHotCodeReplaceManager.java:451)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.access$0(JavaHotCodeReplaceManager.java:421)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager$1.run(JavaHotCodeReplaceManager.java:310)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.run(DebugPlugin.java:1048)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.async(DebugPlugin.java:1031)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.jdt.debug 4 5010 2018-04-18 22:07:20.551
+!MESSAGE org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 4159. occurred retrieving stack frames.
+!STACK 0
+org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 4159.
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:171)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:180)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:174)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:192)
+	at org.eclipse.jdi.internal.ThreadReferenceImpl.frames(ThreadReferenceImpl.java:241)
+	at org.eclipse.jdi.internal.ThreadReferenceImpl.frames(ThreadReferenceImpl.java:225)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.getUnderlyingFrames(JDIThread.java:608)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.computeStackFrames(JDIThread.java:520)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.computeStackFrames(JDIThread.java:584)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.getAffectedFrame(JavaHotCodeReplaceManager.java:815)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.getAffectedFrames(JavaHotCodeReplaceManager.java:785)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.attemptPopFrames(JavaHotCodeReplaceManager.java:735)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.doHotCodeReplace(JavaHotCodeReplaceManager.java:451)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.access$0(JavaHotCodeReplaceManager.java:421)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager$1.run(JavaHotCodeReplaceManager.java:310)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.run(DebugPlugin.java:1048)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.async(DebugPlugin.java:1031)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jdt.debug 4 125 2018-04-18 22:07:36.426
+!MESSAGE Internal error logged from JDI Debug: 
+!STACK 0
+org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 4226.
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:171)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:180)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:174)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:192)
+	at org.eclipse.jdi.internal.VirtualMachineImpl.classesBySignature(VirtualMachineImpl.java:599)
+	at org.eclipse.jdi.internal.VirtualMachineImpl.classesByName(VirtualMachineImpl.java:626)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.jdiClassesByName(JDIDebugTarget.java:1510)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.getTypesToBytes(JavaHotCodeReplaceManager.java:635)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.redefineTypesJDK(JavaHotCodeReplaceManager.java:569)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.doHotCodeReplace(JavaHotCodeReplaceManager.java:461)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.access$0(JavaHotCodeReplaceManager.java:421)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager$1.run(JavaHotCodeReplaceManager.java:310)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.run(DebugPlugin.java:1048)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.async(DebugPlugin.java:1031)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jdt.debug 4 125 2018-04-18 22:07:45.442
+!MESSAGE Internal error logged from JDI Debug: 
+!STACK 0
+org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 4233.
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:171)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:180)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:174)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:192)
+	at org.eclipse.jdi.internal.VirtualMachineImpl.classesBySignature(VirtualMachineImpl.java:599)
+	at org.eclipse.jdi.internal.VirtualMachineImpl.classesByName(VirtualMachineImpl.java:626)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.jdiClassesByName(JDIDebugTarget.java:1510)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.getTypesToBytes(JavaHotCodeReplaceManager.java:635)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.redefineTypesJDK(JavaHotCodeReplaceManager.java:569)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.doHotCodeReplace(JavaHotCodeReplaceManager.java:461)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.access$0(JavaHotCodeReplaceManager.java:421)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager$1.run(JavaHotCodeReplaceManager.java:310)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.run(DebugPlugin.java:1048)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.async(DebugPlugin.java:1031)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jdt.debug 4 5010 2018-04-18 22:07:48.567
+!MESSAGE At least one target failed to drop to frame after successful hot code replace.
+!SUBENTRY 1 org.eclipse.jdt.debug 4 5010 2018-04-18 22:07:48.567
+!MESSAGE org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 4225. occurred retrieving stack frames.
+!STACK 0
+org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 4225.
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:171)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:180)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:174)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:192)
+	at org.eclipse.jdi.internal.ThreadReferenceImpl.frames(ThreadReferenceImpl.java:241)
+	at org.eclipse.jdi.internal.ThreadReferenceImpl.frames(ThreadReferenceImpl.java:225)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.getUnderlyingFrames(JDIThread.java:608)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.computeStackFrames(JDIThread.java:520)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.computeStackFrames(JDIThread.java:584)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.getAffectedFrame(JavaHotCodeReplaceManager.java:815)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.getAffectedFrames(JavaHotCodeReplaceManager.java:785)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.attemptPopFrames(JavaHotCodeReplaceManager.java:735)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.doHotCodeReplace(JavaHotCodeReplaceManager.java:451)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.access$0(JavaHotCodeReplaceManager.java:421)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager$1.run(JavaHotCodeReplaceManager.java:310)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.run(DebugPlugin.java:1048)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.async(DebugPlugin.java:1031)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.jdt.debug 4 5010 2018-04-18 22:07:48.567
+!MESSAGE org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 4232. occurred retrieving stack frames.
+!STACK 0
+org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 4232.
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:171)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:180)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:174)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:192)
+	at org.eclipse.jdi.internal.ThreadReferenceImpl.frames(ThreadReferenceImpl.java:241)
+	at org.eclipse.jdi.internal.ThreadReferenceImpl.frames(ThreadReferenceImpl.java:225)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.getUnderlyingFrames(JDIThread.java:608)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.computeStackFrames(JDIThread.java:520)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.computeStackFrames(JDIThread.java:584)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.getAffectedFrame(JavaHotCodeReplaceManager.java:815)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.getAffectedFrames(JavaHotCodeReplaceManager.java:785)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.attemptPopFrames(JavaHotCodeReplaceManager.java:735)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.doHotCodeReplace(JavaHotCodeReplaceManager.java:451)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.access$0(JavaHotCodeReplaceManager.java:421)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager$1.run(JavaHotCodeReplaceManager.java:310)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.run(DebugPlugin.java:1048)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.async(DebugPlugin.java:1031)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jdt.debug 4 125 2018-04-18 22:07:55.832
+!MESSAGE Internal error logged from JDI Debug: 
+!STACK 0
+org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 4296.
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:171)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:180)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:174)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:192)
+	at org.eclipse.jdi.internal.VirtualMachineImpl.classesBySignature(VirtualMachineImpl.java:599)
+	at org.eclipse.jdi.internal.VirtualMachineImpl.classesByName(VirtualMachineImpl.java:626)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.jdiClassesByName(JDIDebugTarget.java:1510)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.getTypesToBytes(JavaHotCodeReplaceManager.java:635)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.redefineTypesJDK(JavaHotCodeReplaceManager.java:569)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.doHotCodeReplace(JavaHotCodeReplaceManager.java:461)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.access$0(JavaHotCodeReplaceManager.java:421)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager$1.run(JavaHotCodeReplaceManager.java:310)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.run(DebugPlugin.java:1048)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.async(DebugPlugin.java:1031)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jdt.debug 4 125 2018-04-18 22:08:05.660
+!MESSAGE Internal error logged from JDI Debug: 
+!STACK 0
+org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 4303.
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:171)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:180)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:174)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:192)
+	at org.eclipse.jdi.internal.VirtualMachineImpl.classesBySignature(VirtualMachineImpl.java:599)
+	at org.eclipse.jdi.internal.VirtualMachineImpl.classesByName(VirtualMachineImpl.java:626)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.jdiClassesByName(JDIDebugTarget.java:1510)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.getTypesToBytes(JavaHotCodeReplaceManager.java:635)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.redefineTypesJDK(JavaHotCodeReplaceManager.java:569)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.doHotCodeReplace(JavaHotCodeReplaceManager.java:461)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.access$0(JavaHotCodeReplaceManager.java:421)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager$1.run(JavaHotCodeReplaceManager.java:310)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.run(DebugPlugin.java:1048)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.async(DebugPlugin.java:1031)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jdt.debug 4 5010 2018-04-18 22:08:08.770
+!MESSAGE At least one target failed to drop to frame after successful hot code replace.
+!SUBENTRY 1 org.eclipse.jdt.debug 4 5010 2018-04-18 22:08:08.770
+!MESSAGE org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 4295. occurred retrieving stack frames.
+!STACK 0
+org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 4295.
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:171)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:180)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:174)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:192)
+	at org.eclipse.jdi.internal.ThreadReferenceImpl.frames(ThreadReferenceImpl.java:241)
+	at org.eclipse.jdi.internal.ThreadReferenceImpl.frames(ThreadReferenceImpl.java:225)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.getUnderlyingFrames(JDIThread.java:608)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.computeStackFrames(JDIThread.java:520)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.computeStackFrames(JDIThread.java:584)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.getAffectedFrame(JavaHotCodeReplaceManager.java:815)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.getAffectedFrames(JavaHotCodeReplaceManager.java:785)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.attemptPopFrames(JavaHotCodeReplaceManager.java:735)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.doHotCodeReplace(JavaHotCodeReplaceManager.java:451)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.access$0(JavaHotCodeReplaceManager.java:421)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager$1.run(JavaHotCodeReplaceManager.java:310)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.run(DebugPlugin.java:1048)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.async(DebugPlugin.java:1031)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.jdt.debug 4 5010 2018-04-18 22:08:08.770
+!MESSAGE org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 4302. occurred retrieving stack frames.
+!STACK 0
+org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 4302.
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:171)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:180)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:174)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:192)
+	at org.eclipse.jdi.internal.ThreadReferenceImpl.frames(ThreadReferenceImpl.java:241)
+	at org.eclipse.jdi.internal.ThreadReferenceImpl.frames(ThreadReferenceImpl.java:225)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.getUnderlyingFrames(JDIThread.java:608)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.computeStackFrames(JDIThread.java:520)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.computeStackFrames(JDIThread.java:584)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.getAffectedFrame(JavaHotCodeReplaceManager.java:815)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.getAffectedFrames(JavaHotCodeReplaceManager.java:785)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.attemptPopFrames(JavaHotCodeReplaceManager.java:735)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.doHotCodeReplace(JavaHotCodeReplaceManager.java:451)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.access$0(JavaHotCodeReplaceManager.java:421)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager$1.run(JavaHotCodeReplaceManager.java:310)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.run(DebugPlugin.java:1048)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.async(DebugPlugin.java:1031)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jdt.debug 4 125 2018-04-18 22:08:16.051
+!MESSAGE Internal error logged from JDI Debug: 
+!STACK 0
+org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 4363.
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:171)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:180)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:174)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:192)
+	at org.eclipse.jdi.internal.VirtualMachineImpl.classesBySignature(VirtualMachineImpl.java:599)
+	at org.eclipse.jdi.internal.VirtualMachineImpl.classesByName(VirtualMachineImpl.java:626)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.jdiClassesByName(JDIDebugTarget.java:1510)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.getTypesToBytes(JavaHotCodeReplaceManager.java:635)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.redefineTypesJDK(JavaHotCodeReplaceManager.java:569)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.doHotCodeReplace(JavaHotCodeReplaceManager.java:461)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.access$0(JavaHotCodeReplaceManager.java:421)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager$1.run(JavaHotCodeReplaceManager.java:310)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.run(DebugPlugin.java:1048)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.async(DebugPlugin.java:1031)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jdt.debug 4 125 2018-04-18 22:08:26.067
+!MESSAGE Internal error logged from JDI Debug: 
+!STACK 0
+org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 4370.
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:171)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:180)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:174)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:192)
+	at org.eclipse.jdi.internal.VirtualMachineImpl.classesBySignature(VirtualMachineImpl.java:599)
+	at org.eclipse.jdi.internal.VirtualMachineImpl.classesByName(VirtualMachineImpl.java:626)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.jdiClassesByName(JDIDebugTarget.java:1510)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.getTypesToBytes(JavaHotCodeReplaceManager.java:635)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.redefineTypesJDK(JavaHotCodeReplaceManager.java:569)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.doHotCodeReplace(JavaHotCodeReplaceManager.java:461)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.access$0(JavaHotCodeReplaceManager.java:421)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager$1.run(JavaHotCodeReplaceManager.java:310)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.run(DebugPlugin.java:1048)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.async(DebugPlugin.java:1031)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jdt.debug 4 5010 2018-04-18 22:08:29.176
+!MESSAGE At least one target failed to drop to frame after successful hot code replace.
+!SUBENTRY 1 org.eclipse.jdt.debug 4 5010 2018-04-18 22:08:29.176
+!MESSAGE org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 4362. occurred retrieving stack frames.
+!STACK 0
+org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 4362.
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:171)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:180)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:174)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:192)
+	at org.eclipse.jdi.internal.ThreadReferenceImpl.frames(ThreadReferenceImpl.java:241)
+	at org.eclipse.jdi.internal.ThreadReferenceImpl.frames(ThreadReferenceImpl.java:225)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.getUnderlyingFrames(JDIThread.java:608)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.computeStackFrames(JDIThread.java:520)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.computeStackFrames(JDIThread.java:584)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.getAffectedFrame(JavaHotCodeReplaceManager.java:815)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.getAffectedFrames(JavaHotCodeReplaceManager.java:785)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.attemptPopFrames(JavaHotCodeReplaceManager.java:735)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.doHotCodeReplace(JavaHotCodeReplaceManager.java:451)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.access$0(JavaHotCodeReplaceManager.java:421)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager$1.run(JavaHotCodeReplaceManager.java:310)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.run(DebugPlugin.java:1048)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.async(DebugPlugin.java:1031)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.jdt.debug 4 5010 2018-04-18 22:08:29.176
+!MESSAGE org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 4369. occurred retrieving stack frames.
+!STACK 0
+org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 4369.
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:171)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:180)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:174)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:192)
+	at org.eclipse.jdi.internal.ThreadReferenceImpl.frames(ThreadReferenceImpl.java:241)
+	at org.eclipse.jdi.internal.ThreadReferenceImpl.frames(ThreadReferenceImpl.java:225)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.getUnderlyingFrames(JDIThread.java:608)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.computeStackFrames(JDIThread.java:520)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.computeStackFrames(JDIThread.java:584)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.getAffectedFrame(JavaHotCodeReplaceManager.java:815)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.getAffectedFrames(JavaHotCodeReplaceManager.java:785)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.attemptPopFrames(JavaHotCodeReplaceManager.java:735)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.doHotCodeReplace(JavaHotCodeReplaceManager.java:451)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.access$0(JavaHotCodeReplaceManager.java:421)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager$1.run(JavaHotCodeReplaceManager.java:310)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.run(DebugPlugin.java:1048)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.async(DebugPlugin.java:1031)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jdt.debug 4 125 2018-04-18 22:08:36.348
+!MESSAGE Internal error logged from JDI Debug: 
+!STACK 0
+org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 4430.
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:171)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:180)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:174)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:192)
+	at org.eclipse.jdi.internal.VirtualMachineImpl.classesBySignature(VirtualMachineImpl.java:599)
+	at org.eclipse.jdi.internal.VirtualMachineImpl.classesByName(VirtualMachineImpl.java:626)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.jdiClassesByName(JDIDebugTarget.java:1510)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.getTypesToBytes(JavaHotCodeReplaceManager.java:635)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.redefineTypesJDK(JavaHotCodeReplaceManager.java:569)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.doHotCodeReplace(JavaHotCodeReplaceManager.java:461)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.access$0(JavaHotCodeReplaceManager.java:421)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager$1.run(JavaHotCodeReplaceManager.java:310)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.run(DebugPlugin.java:1048)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.async(DebugPlugin.java:1031)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jdt.debug 4 125 2018-04-18 22:08:46.180
+!MESSAGE Internal error logged from JDI Debug: 
+!STACK 0
+org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 4437.
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:171)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:180)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:174)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:192)
+	at org.eclipse.jdi.internal.VirtualMachineImpl.classesBySignature(VirtualMachineImpl.java:599)
+	at org.eclipse.jdi.internal.VirtualMachineImpl.classesByName(VirtualMachineImpl.java:626)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.jdiClassesByName(JDIDebugTarget.java:1510)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.getTypesToBytes(JavaHotCodeReplaceManager.java:635)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.redefineTypesJDK(JavaHotCodeReplaceManager.java:569)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.doHotCodeReplace(JavaHotCodeReplaceManager.java:461)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.access$0(JavaHotCodeReplaceManager.java:421)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager$1.run(JavaHotCodeReplaceManager.java:310)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.run(DebugPlugin.java:1048)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.async(DebugPlugin.java:1031)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jdt.debug 4 5010 2018-04-18 22:08:49.305
+!MESSAGE At least one target failed to drop to frame after successful hot code replace.
+!SUBENTRY 1 org.eclipse.jdt.debug 4 5010 2018-04-18 22:08:49.305
+!MESSAGE org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 4429. occurred retrieving stack frames.
+!STACK 0
+org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 4429.
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:171)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:180)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:174)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:192)
+	at org.eclipse.jdi.internal.ThreadReferenceImpl.frames(ThreadReferenceImpl.java:241)
+	at org.eclipse.jdi.internal.ThreadReferenceImpl.frames(ThreadReferenceImpl.java:225)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.getUnderlyingFrames(JDIThread.java:608)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.computeStackFrames(JDIThread.java:520)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.computeStackFrames(JDIThread.java:584)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.getAffectedFrame(JavaHotCodeReplaceManager.java:815)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.getAffectedFrames(JavaHotCodeReplaceManager.java:785)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.attemptPopFrames(JavaHotCodeReplaceManager.java:735)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.doHotCodeReplace(JavaHotCodeReplaceManager.java:451)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.access$0(JavaHotCodeReplaceManager.java:421)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager$1.run(JavaHotCodeReplaceManager.java:310)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.run(DebugPlugin.java:1048)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.async(DebugPlugin.java:1031)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.jdt.debug 4 5010 2018-04-18 22:08:49.305
+!MESSAGE org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 4436. occurred retrieving stack frames.
+!STACK 0
+org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 4436.
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:171)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:180)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:174)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:192)
+	at org.eclipse.jdi.internal.ThreadReferenceImpl.frames(ThreadReferenceImpl.java:241)
+	at org.eclipse.jdi.internal.ThreadReferenceImpl.frames(ThreadReferenceImpl.java:225)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.getUnderlyingFrames(JDIThread.java:608)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.computeStackFrames(JDIThread.java:520)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.computeStackFrames(JDIThread.java:584)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.getAffectedFrame(JavaHotCodeReplaceManager.java:815)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.getAffectedFrames(JavaHotCodeReplaceManager.java:785)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.attemptPopFrames(JavaHotCodeReplaceManager.java:735)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.doHotCodeReplace(JavaHotCodeReplaceManager.java:451)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.access$0(JavaHotCodeReplaceManager.java:421)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager$1.run(JavaHotCodeReplaceManager.java:310)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.run(DebugPlugin.java:1048)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.async(DebugPlugin.java:1031)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jdt.debug 4 125 2018-04-18 22:08:56.774
+!MESSAGE Internal error logged from JDI Debug: 
+!STACK 0
+org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 4500.
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:171)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:180)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:174)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:192)
+	at org.eclipse.jdi.internal.VirtualMachineImpl.classesBySignature(VirtualMachineImpl.java:599)
+	at org.eclipse.jdi.internal.VirtualMachineImpl.classesByName(VirtualMachineImpl.java:626)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.jdiClassesByName(JDIDebugTarget.java:1510)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.getTypesToBytes(JavaHotCodeReplaceManager.java:635)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.redefineTypesJDK(JavaHotCodeReplaceManager.java:569)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.doHotCodeReplace(JavaHotCodeReplaceManager.java:461)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.access$0(JavaHotCodeReplaceManager.java:421)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager$1.run(JavaHotCodeReplaceManager.java:310)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.run(DebugPlugin.java:1048)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.async(DebugPlugin.java:1031)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jdt.debug 4 125 2018-04-18 22:09:06.602
+!MESSAGE Internal error logged from JDI Debug: 
+!STACK 0
+org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 4507.
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:171)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:180)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:174)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:192)
+	at org.eclipse.jdi.internal.VirtualMachineImpl.classesBySignature(VirtualMachineImpl.java:599)
+	at org.eclipse.jdi.internal.VirtualMachineImpl.classesByName(VirtualMachineImpl.java:626)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.jdiClassesByName(JDIDebugTarget.java:1510)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.getTypesToBytes(JavaHotCodeReplaceManager.java:635)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.redefineTypesJDK(JavaHotCodeReplaceManager.java:569)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.doHotCodeReplace(JavaHotCodeReplaceManager.java:461)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.access$0(JavaHotCodeReplaceManager.java:421)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager$1.run(JavaHotCodeReplaceManager.java:310)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.run(DebugPlugin.java:1048)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.async(DebugPlugin.java:1031)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jdt.debug 4 5010 2018-04-18 22:09:09.711
+!MESSAGE At least one target failed to drop to frame after successful hot code replace.
+!SUBENTRY 1 org.eclipse.jdt.debug 4 5010 2018-04-18 22:09:09.711
+!MESSAGE org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 4499. occurred retrieving stack frames.
+!STACK 0
+org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 4499.
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:171)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:180)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:174)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:192)
+	at org.eclipse.jdi.internal.ThreadReferenceImpl.frames(ThreadReferenceImpl.java:241)
+	at org.eclipse.jdi.internal.ThreadReferenceImpl.frames(ThreadReferenceImpl.java:225)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.getUnderlyingFrames(JDIThread.java:608)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.computeStackFrames(JDIThread.java:520)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.computeStackFrames(JDIThread.java:584)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.getAffectedFrame(JavaHotCodeReplaceManager.java:815)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.getAffectedFrames(JavaHotCodeReplaceManager.java:785)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.attemptPopFrames(JavaHotCodeReplaceManager.java:735)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.doHotCodeReplace(JavaHotCodeReplaceManager.java:451)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.access$0(JavaHotCodeReplaceManager.java:421)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager$1.run(JavaHotCodeReplaceManager.java:310)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.run(DebugPlugin.java:1048)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.async(DebugPlugin.java:1031)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.jdt.debug 4 5010 2018-04-18 22:09:09.711
+!MESSAGE org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 4506. occurred retrieving stack frames.
+!STACK 0
+org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 4506.
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:171)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:180)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:174)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:192)
+	at org.eclipse.jdi.internal.ThreadReferenceImpl.frames(ThreadReferenceImpl.java:241)
+	at org.eclipse.jdi.internal.ThreadReferenceImpl.frames(ThreadReferenceImpl.java:225)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.getUnderlyingFrames(JDIThread.java:608)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.computeStackFrames(JDIThread.java:520)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.computeStackFrames(JDIThread.java:584)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.getAffectedFrame(JavaHotCodeReplaceManager.java:815)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.getAffectedFrames(JavaHotCodeReplaceManager.java:785)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.attemptPopFrames(JavaHotCodeReplaceManager.java:735)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.doHotCodeReplace(JavaHotCodeReplaceManager.java:451)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.access$0(JavaHotCodeReplaceManager.java:421)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager$1.run(JavaHotCodeReplaceManager.java:310)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.run(DebugPlugin.java:1048)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.async(DebugPlugin.java:1031)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jdt.debug 4 125 2018-04-18 22:09:16.868
+!MESSAGE Internal error logged from JDI Debug: 
+!STACK 0
+org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 4573.
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:171)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:180)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:174)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:192)
+	at org.eclipse.jdi.internal.VirtualMachineImpl.classesBySignature(VirtualMachineImpl.java:599)
+	at org.eclipse.jdi.internal.VirtualMachineImpl.classesByName(VirtualMachineImpl.java:626)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.jdiClassesByName(JDIDebugTarget.java:1510)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.getTypesToBytes(JavaHotCodeReplaceManager.java:635)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.redefineTypesJDK(JavaHotCodeReplaceManager.java:569)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.doHotCodeReplace(JavaHotCodeReplaceManager.java:461)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.access$0(JavaHotCodeReplaceManager.java:421)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager$1.run(JavaHotCodeReplaceManager.java:310)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.run(DebugPlugin.java:1048)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.async(DebugPlugin.java:1031)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jdt.debug 4 125 2018-04-18 22:09:26.602
+!MESSAGE Internal error logged from JDI Debug: 
+!STACK 0
+org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 4580.
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:171)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:180)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:174)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:192)
+	at org.eclipse.jdi.internal.VirtualMachineImpl.classesBySignature(VirtualMachineImpl.java:599)
+	at org.eclipse.jdi.internal.VirtualMachineImpl.classesByName(VirtualMachineImpl.java:626)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.jdiClassesByName(JDIDebugTarget.java:1510)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.getTypesToBytes(JavaHotCodeReplaceManager.java:635)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.redefineTypesJDK(JavaHotCodeReplaceManager.java:569)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.doHotCodeReplace(JavaHotCodeReplaceManager.java:461)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.access$0(JavaHotCodeReplaceManager.java:421)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager$1.run(JavaHotCodeReplaceManager.java:310)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.run(DebugPlugin.java:1048)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.async(DebugPlugin.java:1031)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jdt.debug 4 5010 2018-04-18 22:09:29.758
+!MESSAGE At least one target failed to drop to frame after successful hot code replace.
+!SUBENTRY 1 org.eclipse.jdt.debug 4 5010 2018-04-18 22:09:29.758
+!MESSAGE org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 4572. occurred retrieving stack frames.
+!STACK 0
+org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 4572.
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:171)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:180)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:174)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:192)
+	at org.eclipse.jdi.internal.ThreadReferenceImpl.frames(ThreadReferenceImpl.java:241)
+	at org.eclipse.jdi.internal.ThreadReferenceImpl.frames(ThreadReferenceImpl.java:225)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.getUnderlyingFrames(JDIThread.java:608)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.computeStackFrames(JDIThread.java:520)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.computeStackFrames(JDIThread.java:584)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.getAffectedFrame(JavaHotCodeReplaceManager.java:815)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.getAffectedFrames(JavaHotCodeReplaceManager.java:785)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.attemptPopFrames(JavaHotCodeReplaceManager.java:735)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.doHotCodeReplace(JavaHotCodeReplaceManager.java:451)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.access$0(JavaHotCodeReplaceManager.java:421)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager$1.run(JavaHotCodeReplaceManager.java:310)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.run(DebugPlugin.java:1048)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.async(DebugPlugin.java:1031)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.jdt.debug 4 5010 2018-04-18 22:09:29.758
+!MESSAGE org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 4579. occurred retrieving stack frames.
+!STACK 0
+org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 4579.
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:171)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:180)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:174)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:192)
+	at org.eclipse.jdi.internal.ThreadReferenceImpl.frames(ThreadReferenceImpl.java:241)
+	at org.eclipse.jdi.internal.ThreadReferenceImpl.frames(ThreadReferenceImpl.java:225)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.getUnderlyingFrames(JDIThread.java:608)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.computeStackFrames(JDIThread.java:520)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.computeStackFrames(JDIThread.java:584)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.getAffectedFrame(JavaHotCodeReplaceManager.java:815)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.getAffectedFrames(JavaHotCodeReplaceManager.java:785)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.attemptPopFrames(JavaHotCodeReplaceManager.java:735)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.doHotCodeReplace(JavaHotCodeReplaceManager.java:451)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.access$0(JavaHotCodeReplaceManager.java:421)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager$1.run(JavaHotCodeReplaceManager.java:310)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.run(DebugPlugin.java:1048)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.async(DebugPlugin.java:1031)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)

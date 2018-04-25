@@ -1,0 +1,276 @@
+what,kind,bundleId,bundleVersion,description,time
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.undo",1523398145438
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.delete",1523398151952
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1523398209641
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.select.lineStart",1523398221062
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1523398234884
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.copy",1523398244141
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.paste",1523398244515
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.delete",1523398247172
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1523398247896
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1523398271158
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1523398275978
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1523398282652
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1523398297159
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1523398307875
+activated,view,org.eclipse.ui.console,3.5.0.v20100526,"org.eclipse.ui.console.ConsoleView",1523398324502
+activated,editor,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1523398346922
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1523398366191
+executed,command,org.eclipse.debug.ui,3.6.1.v20100901_r361,"org.eclipse.debug.ui.commands.DebugLast",1523398367464
+activated,view,org.eclipse.ui.console,3.5.0.v20100526,"org.eclipse.ui.console.ConsoleView",1523398368685
+activated,editor,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1523398372059
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1523398378513
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1523398392221
+activated,view,org.eclipse.ui.console,3.5.0.v20100526,"org.eclipse.ui.console.ConsoleView",1523398393998
+activated,editor,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1523398465183
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.copy",1523398476309
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.paste",1523398481550
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.delete",1523398485156
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.delete",1523398485293
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.delete",1523398485819
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1523398498339
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1523398501035
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1523398508658
+executed,command,org.eclipse.debug.ui,3.6.1.v20100901_r361,"org.eclipse.debug.ui.commands.DebugLast",1523398512193
+activated,view,org.eclipse.ui.console,3.5.0.v20100526,"org.eclipse.ui.console.ConsoleView",1523398513287
+opened,view,org.eclipse.debug.ui,3.6.1.v20100901_r361,"org.eclipse.debug.ui.DebugView",1523398535886
+activated,view,org.eclipse.debug.ui,3.6.1.v20100901_r361,"org.eclipse.debug.ui.DebugView",1523398535932
+activated,view,org.eclipse.ui.console,3.5.0.v20100526,"org.eclipse.ui.console.ConsoleView",1523398541067
+activated,editor,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1523398560325
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.delete",1523398564235
+activated,view,org.eclipse.ui.console,3.5.0.v20100526,"org.eclipse.ui.console.ConsoleView",1523398565574
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.copy",1523398567318
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.copy",1523398567482
+executed,command,org.eclipse.debug.ui,3.6.1.v20100901_r361,"org.eclipse.debug.ui.commands.DebugLast",1523398569923
+executed,command,org.eclipse.debug.ui,3.6.1.v20100901_r361,"org.eclipse.debug.ui.commands.DebugLast",1523398572362
+error,log,,,"Internal error logged from JDI Debug: ",1523398573081
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.paste",1523398576999
+activated,view,org.eclipse.debug.ui,3.6.1.v20100901_r361,"org.eclipse.debug.ui.DebugView",1523398582368
+activated,view,org.eclipse.ui.console,3.5.0.v20100526,"org.eclipse.ui.console.ConsoleView",1523398584944
+closed,view,org.eclipse.debug.ui,3.6.1.v20100901_r361,"org.eclipse.debug.ui.DebugView",1523398584950
+executed,command,org.eclipse.debug.ui,3.6.1.v20100901_r361,"org.eclipse.debug.ui.commands.DebugLast",1523398612230
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.paste",1523398615893
+opened,view,org.eclipse.debug.ui,3.6.1.v20100901_r361,"org.eclipse.debug.ui.DebugView",1523398622787
+activated,view,org.eclipse.debug.ui,3.6.1.v20100901_r361,"org.eclipse.debug.ui.DebugView",1523398622824
+activated,view,org.eclipse.ui.console,3.5.0.v20100526,"org.eclipse.ui.console.ConsoleView",1523398624627
+closed,view,org.eclipse.debug.ui,3.6.1.v20100901_r361,"org.eclipse.debug.ui.DebugView",1523398624637
+activated,editor,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1523398625816
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.paste",1523398634277
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.goto.lineStart",1523398667643
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.goto.lineStart",1523398668750
+activated,editor,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1523398726201
+executed,command,org.eclipse.debug.ui,3.6.1.v20100901_r361,"org.eclipse.debug.ui.commands.DebugLast",1523398728272
+activated,view,org.eclipse.ui.console,3.5.0.v20100526,"org.eclipse.ui.console.ConsoleView",1523398729429
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.paste",1523398734305
+activated,editor,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1523398743627
+activated,view,org.eclipse.ui.console,3.5.0.v20100526,"org.eclipse.ui.console.ConsoleView",1523398746979
+activated,editor,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1523398747768
+activated,editor,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1523398747993
+closed,editor,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1523398747993
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.close",1523398748033
+activated,view,org.eclipse.ui.console,3.5.0.v20100526,"org.eclipse.ui.console.ConsoleView",1523398751469
+activated,editor,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1523398751495
+activated,view,org.eclipse.ui.navigator.resources,3.4.201.M20100707-0800,"org.eclipse.ui.navigator.ProjectExplorer",1523398784438
+opened,editor,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1523398784671
+activated,editor,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1523398784708
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.delete",1523398788276
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1523398791803
+executed,command,org.eclipse.debug.ui,3.6.1.v20100901_r361,"org.eclipse.debug.ui.commands.DebugLast",1523398792115
+activated,view,org.eclipse.ui.console,3.5.0.v20100526,"org.eclipse.ui.console.ConsoleView",1523398798734
+activated,editor,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1523398801686
+activated,view,org.eclipse.ui.console,3.5.0.v20100526,"org.eclipse.ui.console.ConsoleView",1523398811050
+closed,editor,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1523398812383
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.close",1523398812392
+activated,view,org.eclipse.ui.navigator.resources,3.4.201.M20100707-0800,"org.eclipse.ui.navigator.ProjectExplorer",1523398813775
+activated,editor,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1523398814543
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1523398821067
+error,log,,,"Internal error logged from JDI Debug: ",1523398827232
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1523398828930
+executed,command,org.eclipse.debug.ui,3.6.1.v20100901_r361,"org.eclipse.debug.ui.commands.DebugLast",1523398829718
+executed,command,org.eclipse.debug.ui,3.6.1.v20100901_r361,"org.eclipse.debug.ui.commands.DebugLast",1523398832731
+error,log,,,"Internal error logged from JDI Debug: ",1523398836261
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.paste",1523398842955
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.undo",1523398843544
+error,log,,,"Internal error logged from JDI Debug: ",1523398845284
+activated,view,org.eclipse.ui.console,3.5.0.v20100526,"org.eclipse.ui.console.ConsoleView",1523398845476
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.paste",1523398848077
+error,log,,,"At least one target failed to drop to frame after successful hot code replace.",1523398848311
+error,log,,,"Internal error logged from JDI Debug: ",1523398854339
+error,log,,,"Internal error logged from JDI Debug: ",1523398863369
+activated,editor,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1523398864633
+executed,command,org.eclipse.debug.ui,3.6.1.v20100901_r361,"org.eclipse.debug.ui.commands.DebugLast",1523398871435
+error,log,,,"Internal error logged from JDI Debug: ",1523398872390
+error,log,,,"At least one target failed to drop to frame after successful hot code replace.",1523398875414
+activated,view,org.eclipse.ui.console,3.5.0.v20100526,"org.eclipse.ui.console.ConsoleView",1523398876565
+executed,command,org.eclipse.debug.ui,3.6.1.v20100901_r361,"org.eclipse.debug.ui.commands.DebugLast",1523398883963
+opened,view,org.eclipse.debug.ui,3.6.1.v20100901_r361,"org.eclipse.debug.ui.DebugView",1523398908692
+activated,view,org.eclipse.debug.ui,3.6.1.v20100901_r361,"org.eclipse.debug.ui.DebugView",1523398908722
+activated,view,org.eclipse.ui.console,3.5.0.v20100526,"org.eclipse.ui.console.ConsoleView",1523398910246
+activated,view,org.eclipse.debug.ui,3.6.1.v20100901_r361,"org.eclipse.debug.ui.DebugView",1523398911360
+activated,editor,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1523398911913
+closed,view,org.eclipse.debug.ui,3.6.1.v20100901_r361,"org.eclipse.debug.ui.DebugView",1523398911944
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.paste",1523398918343
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1523399049083
+error,log,,,"Internal error logged from JDI Debug: ",1523399055294
+error,log,,,"Internal error logged from JDI Debug: ",1523399064326
+error,log,,,"Internal error logged from JDI Debug: ",1523399073350
+error,log,,,"Internal error logged from JDI Debug: ",1523399082385
+error,log,,,"At least one target failed to drop to frame after successful hot code replace.",1523399085417
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1523399099197
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1523399105252
+activated,view,org.eclipse.ui.navigator.resources,3.4.201.M20100707-0800,"org.eclipse.ui.navigator.ProjectExplorer",1523399111845
+opened,editor,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1523399112616
+activated,editor,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1523399112652
+activated,editor,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1523399117910
+closed,editor,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1523399117910
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1523399123206
+error,log,,,"Internal error logged from JDI Debug: ",1523399129370
+error,log,,,"Internal error logged from JDI Debug: ",1523399138399
+activated,view,org.eclipse.ui.navigator.resources,3.4.201.M20100707-0800,"org.eclipse.ui.navigator.ProjectExplorer",1523399139658
+opened,editor,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1523399139941
+activated,editor,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1523399139978
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1523399142567
+executed,command,org.eclipse.debug.ui,3.6.1.v20100901_r361,"org.eclipse.debug.ui.commands.DebugLast",1523399143332
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1523399143358
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1523399143801
+executed,command,org.eclipse.debug.ui,3.6.1.v20100901_r361,"org.eclipse.debug.ui.commands.DebugLast",1523399146010
+error,log,,,"Internal error logged from JDI Debug: ",1523399147419
+error,log,,,"Internal error logged from JDI Debug: ",1523399156451
+activated,view,org.eclipse.ui.console,3.5.0.v20100526,"org.eclipse.ui.console.ConsoleView",1523399158804
+activated,editor,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1523399158833
+error,log,,,"At least one target failed to drop to frame after successful hot code replace.",1523399159473
+activated,editor,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1523399160253
+closed,editor,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1523399160254
+error,log,,,"Internal error logged from JDI Debug: ",1523399162506
+activated,view,org.eclipse.ui.console,3.5.0.v20100526,"org.eclipse.ui.console.ConsoleView",1523399164178
+activated,editor,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1523399164207
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1523399183306
+error,log,,,"Internal error logged from JDI Debug: ",1523399189458
+error,log,,,"Internal error logged from JDI Debug: ",1523399198487
+error,log,,,"Internal error logged from JDI Debug: ",1523399207508
+error,log,,,"Internal error logged from JDI Debug: ",1523399216542
+error,log,,,"At least one target failed to drop to frame after successful hot code replace.",1523399219561
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1523399224020
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1523399228147
+activated,view,org.eclipse.ui.navigator.resources,3.4.201.M20100707-0800,"org.eclipse.ui.navigator.ProjectExplorer",1523399228178
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1523399229256
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1523399237156
+activated,editor,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1523399239803
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1523399260989
+error,log,,,"Internal error logged from JDI Debug: ",1523399267184
+error,log,,,"Internal error logged from JDI Debug: ",1523399276211
+error,log,,,"Internal error logged from JDI Debug: ",1523399285232
+error,log,,,"Internal error logged from JDI Debug: ",1523399294266
+error,log,,,"At least one target failed to drop to frame after successful hot code replace.",1523399297285
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1523399300117
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1523399314128
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1523399322940
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1523399326458
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.undo",1523399367051
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.undo",1523399367610
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.undo",1523399367983
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.undo",1523399368388
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1523399392510
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1523399395704
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1523399395714
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1523399397130
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.copy",1523399406646
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.paste",1523399407656
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1523399410643
+error,log,,,"Internal error logged from JDI Debug: ",1523399416844
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1523399423013
+error,log,,,"Internal error logged from JDI Debug: ",1523399425871
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1523399426412
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.copy",1523399431314
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.paste",1523399432663
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.undo",1523399433273
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.undo",1523399434036
+error,log,,,"Internal error logged from JDI Debug: ",1523399434892
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.paste",1523399435022
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.paste",1523399436443
+error,log,,,"Internal error logged from JDI Debug: ",1523399443925
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1523399444792
+error,log,,,"At least one target failed to drop to frame after successful hot code replace.",1523399446945
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.paste",1523399447191
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.paste",1523399448543
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.paste",1523399449981
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1523399450243
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1523399452348
+error,log,,,"Internal error logged from JDI Debug: ",1523399452972
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1523399455136
+error,log,,,"Internal error logged from JDI Debug: ",1523399462012
+error,log,,,"Internal error logged from JDI Debug: ",1523399471031
+error,log,,,"Internal error logged from JDI Debug: ",1523399480061
+error,log,,,"At least one target failed to drop to frame after successful hot code replace.",1523399483081
+error,log,,,"Internal error logged from JDI Debug: ",1523399489107
+error,log,,,"Internal error logged from JDI Debug: ",1523399498132
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.select.lineStart",1523399504374
+error,log,,,"Internal error logged from JDI Debug: ",1523399507152
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.select.lineEnd",1523399508440
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.cut",1523399508812
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.delete",1523399509548
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.delete",1523399510946
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.delete",1523399511358
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.goto.lineEnd",1523399512589
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.paste",1523399512804
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1523399513784
+error,log,,,"Internal error logged from JDI Debug: ",1523399516185
+error,log,,,"At least one target failed to drop to frame after successful hot code replace.",1523399519203
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.undo",1523399525054
+error,log,,,"Internal error logged from JDI Debug: ",1523399525235
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.undo",1523399525237
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.undo",1523399525377
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.undo",1523399525535
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.undo",1523399525725
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.undo",1523399526241
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.undo",1523399526344
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1523399527839
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.copy",1523399531644
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.paste",1523399533377
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1523399533895
+error,log,,,"Internal error logged from JDI Debug: ",1523399534260
+error,log,,,"Internal error logged from JDI Debug: ",1523399543281
+error,log,,,"Internal error logged from JDI Debug: ",1523399552310
+error,log,,,"At least one target failed to drop to frame after successful hot code replace.",1523399555329
+error,log,,,"Internal error logged from JDI Debug: ",1523399561357
+error,log,,,"Internal error logged from JDI Debug: ",1523399570382
+error,log,,,"Internal error logged from JDI Debug: ",1523399579402
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1523399587419
+error,log,,,"Internal error logged from JDI Debug: ",1523399588438
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1523399589431
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.cut",1523399591360
+error,log,,,"At least one target failed to drop to frame after successful hot code replace.",1523399591461
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.paste",1523399593256
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.cut",1523399594717
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.paste",1523399595236
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1523399595523
+executed,command,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui.edit.text.java.format",1523399596065
+error,log,,,"Internal error logged from JDI Debug: ",1523399597487
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1523399598095
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1523399601277
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1523399601971
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1523399602316
+error,log,,,"Internal error logged from JDI Debug: ",1523399606513
+error,log,,,"Internal error logged from JDI Debug: ",1523399615532
+error,log,,,"Internal error logged from JDI Debug: ",1523399624560
+error,log,,,"At least one target failed to drop to frame after successful hot code replace.",1523399627575
+error,log,,,"Internal error logged from JDI Debug: ",1523399633595
+error,log,,,"Internal error logged from JDI Debug: ",1523399642621
+error,log,,,"Internal error logged from JDI Debug: ",1523399651647
+error,log,,,"Internal error logged from JDI Debug: ",1523399660674
+error,log,,,"At least one target failed to drop to frame after successful hot code replace.",1523399663691
+error,log,,,"Internal error logged from JDI Debug: ",1523399669712
+error,log,,,"Internal error logged from JDI Debug: ",1523399678736
+error,log,,,"Internal error logged from JDI Debug: ",1523399687754
+error,log,,,"Internal error logged from JDI Debug: ",1523399696779
+error,log,,,"At least one target failed to drop to frame after successful hot code replace.",1523399699790
+error,log,,,"Internal error logged from JDI Debug: ",1523399705813
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1523399712856
+error,log,,,"Internal error logged from JDI Debug: ",1523399714841
+error,log,,,"Internal error logged from JDI Debug: ",1523399723859
+error,log,,,"Internal error logged from JDI Debug: ",1523399732890
+error,log,,,"At least one target failed to drop to frame after successful hot code replace.",1523399735901
+error,log,,,"Internal error logged from JDI Debug: ",1523399741924
+error,log,,,"Internal error logged from JDI Debug: ",1523399750949
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1523399752413
+error,log,,,"Internal error logged from JDI Debug: ",1523399759960

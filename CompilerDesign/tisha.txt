@@ -1,0 +1,13 @@
+void main{
+	
+	
+	// this is a comment //
+	int num;
+	String dog, cat;
+	
+	num = num;
+	dog = cat;
+	cat = 44;
+	
+	// this is a comment //
+}

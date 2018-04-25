@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>GUI</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>src/pack8JButton/A.png</name>
+			<type>1</type>
+			<locationURI>PROJECT_LOC/src/A.png</locationURI>
+		</link>
+		<link>
+			<name>src/pack8JButton/X.png</name>
+			<type>1</type>
+			<locationURI>PROJECT_LOC/src/X.png</locationURI>
+		</link>
+		<link>
+			<name>src/pack_11JComboBox/A.png</name>
+			<type>1</type>
+			<locationURI>PROJECT_LOC/src/A.png</locationURI>
+		</link>
+		<link>
+			<name>src/pack_11JComboBox/X.png</name>
+			<type>1</type>
+			<locationURI>PROJECT_LOC/src/X.png</locationURI>
+		</link>
+	</linkedResources>
+</projectDescription>

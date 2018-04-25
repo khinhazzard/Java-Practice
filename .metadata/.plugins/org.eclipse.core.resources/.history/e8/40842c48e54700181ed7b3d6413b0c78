@@ -1,0 +1,64 @@
+package aGettingStarted_school;
+
+//https://practice.geeksforgeeks.org/problems/reverse-digit/0
+
+//10:22 AM 4/24/2018
+
+import java.util.Scanner;
+
+public class GFG_36_ReverseDigit {
+	public static void main(String args[]) {
+		Scanner sc = new Scanner(System.in);
+
+		System.out.println("Input:");
+
+		int tc = sc.nextInt();
+
+		while (tc-- > 0) {
+			//enter digit
+			int d = sc.nextInt();
+			
+			//reverse digit using recursion
+			int r = reverse(d);
+			
+			//display
+			
+			if (tc > 0)
+				System.out.println();
+		}
+	}
+	
+	static int reverse(int n){
+		//convert n to string
+		String s = Integer.toString(n);
+		
+		//return last digit as int + (pass remaining digits)
+		
+		//if it's the last digit
+		return s.charAt(0);
+	}
+}
+
+/*
+ * Write a program to reverse digits of a number.
+ * 
+ * Input:
+ * 
+ * The first line of input contains an integer T denoting the number of test
+ * cases. The first line of each test case is N.
+ * 
+ * Output:
+ * 
+ * Print the reverse digit of a N digit number.
+ */
+
+// Example:
+//
+// Input:
+// 2
+// 200
+// 122
+//
+// Output:
+// 2
+// 221

@@ -1,0 +1,22 @@
+/*package whatever //do not write package name here */
+
+//https://ide.geeksforgeeks.org/ <- execution time & memory
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class practice {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Input");
+			
+		String s = sc.next();
+		
+		int num = Integer.parseInt(s);
+		
+		if(num >= 0 && num <= 255){
+			System.out.print(num);
+		}
+	}
+}

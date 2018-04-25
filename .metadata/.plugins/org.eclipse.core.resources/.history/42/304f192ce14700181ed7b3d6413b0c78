@@ -1,0 +1,17 @@
+package aGettingStarted_school;
+
+//https://practice.geeksforgeeks.org/problems/number-pattern/0
+
+public class GFG_35_NumberPattern {
+
+}
+
+/*
+ * For a given number N. Print the pattern in the following form: 1 121 12321
+ * 1234321 for N=4.
+ * 
+ * Input: First line of input contains the test cases T. Each line of test case
+ * contain the value of N for which the pattern is to be displayed.
+ * 
+ * Output: For each value of N, print the pattern in a single line.
+ */

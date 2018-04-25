@@ -1,0 +1,21 @@
+package aGettingStarted_school;
+
+//https://practice.geeksforgeeks.org/problems/sum-of-gp/0/?ref=self
+
+import java.util.Scanner;
+
+public class GFG_25_SumOfGP {
+	public static void main(String args[]){
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Input");
+			
+		int tc = sc.nextInt();
+		
+		while(tc-->0){
+		
+			if(tc>0)
+			System.out.println();
+		}
+	}
+}
